@@ -7,8 +7,10 @@ import fs from 'fs/promises';
 // Configurações - apenas Shopify
 const CONFIG = {
   shopify: {
-    url: 'https://jfu7jv-0i.myshopify.com',
-    token: 'process.env.SHOPIFY_ACCESS_TOKEN',
+    url: process.env.SHOPIFY_STORE_URL || 'https://example.myshopify.com',
+    token: process.env.SHOPIFY_ACCESS_TOKEN || '',
+    apiKey: process.env.SHOPIFY_API_KEY || '',
+    secret: process.env.SHOPIFY_CLIENT_SECRET || ''
   },
   
   features: {

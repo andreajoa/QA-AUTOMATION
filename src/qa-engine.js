@@ -5,42 +5,14 @@ import fetch from 'node-fetch';
 import chalk from 'chalk';
 import ora from 'ora';
 import fs from 'fs/promises';
+import CONFIG from '../config.js';
 
-// Configurações
-const CONFIG = {
-  shopify: {
-    url: 'https://jfu7jv-0i.myshopify.com',
-    token: 'process.env.SHOPIFY_ACCESS_TOKEN',
-    apiKey: 'dee0723587ebbd5d3d1c67c69dda981e'
-  },
-  
-  ai: {
-    groq: 'process.env.GROQ_API_KEY',
-    gemini: 'AIzaSyBuTBat0IBjBEQnGhGghvjU5gjAQvn9jnE'
-  },
-  
-  features: {
-    autoFix: {
-      seoOptimization: true,
-      altTextGeneration: true,
-      metaTags: true,
-      // NÃO PERMITIDAS
-      stockUpdates: false,
-      priceChanges: false,
-      productDescriptions: false
-    }
-  },
-  
-  monitoring: {
-    interval: 300000, // 5 minutos
-    port: 3000
-  }
-};
+// Usando configuração importada do config.js
 
 class ShopifyQAEngine {
   constructor() {
-    this.groq = new Groq({ apiKey: CONFIG.ai.groq });
-    this.gemini = new GoogleGenerativeAI(CONFIG.ai.gemini);
+    this.groq = new Groq({ apiKey: CONFIG.AI.GROQ_API_KEY });
+    this.gemini = new GoogleGenerativeAI(CONFIG.AI.GEMINI_API_KEY);
     this.browser = null;
     this.isRunning = false;
     this.results = {
@@ -94,9 +66,9 @@ class ShopifyQAEngine {
   }
 
   async testShopifyConnection() {
-    const response = await fetch(`${CONFIG.shopify.url}/admin/api/2023-10/shop.json`, {
+    const response = await fetch(`${CONFIG.SHOPIFY.STORE_URL}/admin/api/2023-10/shop.json`, {
       headers: {
-        'X-Shopify-Access-Token': CONFIG.shopify.token,
+        'X-Shopify-Access-Token': CONFIG.SHOPIFY.ACCESS_TOKEN,
         'Content-Type': 'application/json'
       }
     });
@@ -143,9 +115,9 @@ class ShopifyQAEngine {
 
   async analyzeProducts() {
     try {
-      const response = await fetch(`${CONFIG.shopify.url}/admin/api/2023-10/products.json?limit=20`, {
+      const response = await fetch(`${CONFIG.SHOPIFY.STORE_URL}/admin/api/2023-10/products.json?limit=20`, {
         headers: {
-          'X-Shopify-Access-Token': CONFIG.shopify.token,
+          'X-Shopify-Access-Token': CONFIG.SHOPIFY.ACCESS_TOKEN,
           'Content-Type': 'application/json'
         }
       });
@@ -165,7 +137,7 @@ class ShopifyQAEngine {
           if (missingAltCount > 0) {
             issuesFound.push(`${missingAltCount} imagens sem alt text`);
             
-            if (CONFIG.features.autoFix.altTextGeneration) {
+            if (CONFIG.FEATURES.AUTO_FIX.ALT_TEXT_GENERATION) {
               console.log(chalk.blue(`🖼️ Aplicando correção: alt text para "${product.title}"`));
               fixesApplied++;
             }
@@ -176,7 +148,7 @@ class ShopifyQAEngine {
         if (!product.metafields || product.metafields.length === 0) {
           issuesFound.push('Metafields SEO faltando');
           
-          if (CONFIG.features.autoFix.seoOptimization) {
+          if (CONFIG.FEATURES.AUTO_FIX.SEO_OPTIMIZATION) {
             console.log(chalk.blue(`🔍 Aplicando correção: SEO para "${product.title}"`));
             fixesApplied++;
           }
@@ -237,7 +209,7 @@ class ShopifyQAEngine {
       const start = Date.now();
       
       // Testar página principal da loja
-      const storeUrl = CONFIG.shopify.url.replace('/admin', '');
+      const storeUrl = CONFIG.SHOPIFY.STORE_URL.replace('/admin', '');
       await page.goto(storeUrl, { 
         waitUntil: 'networkidle',
         timeout: 30000
@@ -298,7 +270,7 @@ class ShopifyQAEngine {
         console.log(chalk.cyan('\n⏰ Executando análise automática...'));
         await this.runInitialAnalysis();
       }
-    }, CONFIG.monitoring.interval);
+    }, CONFIG.MONITORING.INTERVAL);
   }
 
   async stop() {

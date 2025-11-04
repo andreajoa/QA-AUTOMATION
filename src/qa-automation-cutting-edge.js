@@ -39,15 +39,21 @@ const AI_APIS = {
 
 // SUAS LOJAS SHOPIFY COMPLETAS
 const SHOPIFY_STORES = [
-  { url: 'https://jfu7jv-0i.myshopify.com', token: 'process.env.SHOPIFY_ACCESS_TOKEN', name: 'Loja Luzia' }
+  { 
+    url: process.env.SHOPIFY_STORE_URL || 'https://example.myshopify.com', 
+    token: process.env.SHOPIFY_ACCESS_TOKEN || '',
+    apiKey: process.env.SHOPIFY_API_KEY || '',
+    secret: process.env.SHOPIFY_CLIENT_SECRET || '',
+    name: 'Loja QA' 
+  }
 ];
 
 // EXTERNAL APIS PARA ANÁLISE COMPETITIVA
 const EXTERNAL_APIS = {
-  serpapi: '5403a17a63e12b204f9ee73c68a02db5dc7c38f5c0a4c4079775977a4bcd83b2',
-  google: 'AIzaSyBuTBat0IBjBEQnGhGghvjU5gjAQvn9jnE',
-  ahrefs: '101mlIWOnLIAAqIFWqIHUw',
-  firecrawl: 'fc-0e8d30f805224e9ebfb6f790b34a07b3'
+  serpapi: process.env.SERPAPI_KEY || '',
+  google: process.env.GOOGLE_API_KEY || '',
+  ahrefs: process.env.AHREFS_API_KEY || '',
+  firecrawl: process.env.FIRECRAWL_API_KEY || ''
 };
 
 class CuttingEdgeQASystem {

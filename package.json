@@ -1,33 +1,39 @@
 {
   "name": "shopify-qa-automation",
   "version": "1.0.0",
-  "description": "Sistema QA automatizado para Shopify",
+  "description": "Sistema inteligente de análise de qualidade para lojas Shopify com IA multi-modelo",
   "type": "module",
-  "main": "src/qa-automation-cutting-edge.js",
+  "main": "shopify-qa.js",
   "scripts": {
-    "start": "node src/qa-automation-cutting-edge.js",
-    "test": "node src/test-shopify.js",
-    "dev": "node --watch src/qa-automation-cutting-edge.js",
-    "setup": "node scripts/setup.js",
-    "auto-run": "node src/qa-automation-cutting-edge.js --auto-run"
+    "start": "node shopify-qa.js",
+    "dev": "node shopify-qa.js --auto-run",
+    "test": "node src/test-connections.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "chalk": "^5.6.2",
+    "express": "^5.1.0",
+    "groq-sdk": "^0.7.0",
+    "lighthouse": "^12.8.2",
+    "node-cron": "^4.2.1",
+    "node-fetch": "^3.3.2",
+    "nodemailer": "^7.0.6",
+    "ora": "^8.2.0",
+    "pixelmatch": "^7.1.0",
+    "playwright": "^1.55.0",
+    "pngjs": "^7.0.0",
+    "puppeteer": "^24.20.0",
+    "sharp": "^0.34.3",
+    "sqlite3": "^5.1.7",
+    "ws": "^8.18.3"
   },
   "keywords": [
     "shopify",
     "qa",
     "automation",
-    "seo",
-    "enterprise"
+    "ai",
+    "testing"
   ],
-  "author": "Loja Luzia",
-  "license": "MIT",
-  "dependencies": {
-    "chalk": "^5.6.2",
-    "express": "^5.1.0",
-    "node-fetch": "^3.3.2",
-    "ora": "^8.0.1",
-    "sqlite3": "^5.1.7"
-  },
-  "engines": {
-    "node": ">=16.0.0"
-  }
+  "author": "QA Automation Team",
+  "license": "MIT"
 }
