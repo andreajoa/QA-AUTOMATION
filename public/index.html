@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopify QA Automation - Cutting Edge System</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+            min-height: 100vh;
+            color: #333;
+        }
+        
+        .container { 
+            max-width: 1200px; 
+            margin: 0 auto; 
+            padding: 2rem; 
+        }
+        
+        .hero { 
+            text-align: center; 
+            color: white; 
+            margin: 4rem 0 6rem; 
+        }
+        
+        .hero h1 { 
+            font-size: 3.5rem; 
+            margin-bottom: 1rem; 
+            font-weight: 800;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .hero p { 
+            font-size: 1.3rem; 
+            opacity: 0.95; 
+            margin-bottom: 2rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .hero .subtitle {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            margin-top: 1rem;
+        }
+        
+        .features { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+            gap: 2rem; 
+            margin: 4rem 0; 
+        }
+        
+        .feature-card { 
+            background: rgba(255,255,255,0.95); 
+            backdrop-filter: blur(10px); 
+            padding: 2.5rem; 
+            border-radius: 16px; 
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 40px rgba(0,0,0,0.15);
+        }
+        
+        .feature-icon { 
+            font-size: 3.5rem; 
+            margin-bottom: 1rem; 
+            display: block;
+        }
+        
+        .feature-title { 
+            font-size: 1.5rem; 
+            margin-bottom: 1rem; 
+            font-weight: 700;
+            color: #667eea;
+        }
+        
+        .feature-description {
+            color: #666;
+            line-height: 1.6;
+        }
+        
+        .install-section { 
+            background: rgba(255,255,255,0.95); 
+            backdrop-filter: blur(10px); 
+            padding: 4rem; 
+            border-radius: 20px; 
+            text-align: center; 
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            margin: 4rem 0;
+        }
+        
+        .install-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+        
+        .install-section p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+        
+        .install-btn { 
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); 
+            color: white; 
+            padding: 1.2rem 3rem; 
+            border: none; 
+            border-radius: 12px; 
+            font-size: 1.2rem; 
+            font-weight: 700; 
+            cursor: pointer; 
+            text-decoration: none; 
+            display: inline-block; 
+            margin-top: 1rem;
+            box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .install-btn:hover { 
+            transform: translateY(-2px);
+            box-shadow: 0 6px 25px rgba(102, 126, 234, 0.5);
+        }
+        
+        .stats-showcase { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+            gap: 2rem; 
+            margin: 4rem 0; 
+        }
+        
+        .stat-showcase { 
+            background: rgba(255,255,255,0.95); 
+            backdrop-filter: blur(10px); 
+            padding: 2rem; 
+            border-radius: 16px; 
+            text-align: center; 
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+        
+        .stat-number { 
+            font-size: 3rem; 
+            font-weight: 800;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .stat-label {
+            color: #666;
+            font-size: 1.1rem;
+            margin-top: 0.5rem;
+        }
+        
+        .tech-stack {
+            background: rgba(255,255,255,0.95);
+            padding: 3rem;
+            border-radius: 20px;
+            margin: 4rem 0;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        }
+        
+        .tech-stack h2 {
+            text-align: center;
+            font-size: 2.2rem;
+            margin-bottom: 2rem;
+            color: #667eea;
+        }
+        
+        .tech-items {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+        }
+        
+        .tech-item {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            padding: 2rem;
+            opacity: 0.9;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2.5rem; }
+            .hero p { font-size: 1.1rem; }
+            .features { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>🚀 Shopify QA Automation</h1>
+            <p>Cutting-edge AI-powered Quality Assurance system for Shopify stores</p>
+            <p class="subtitle">Automated quality checks, SEO optimization, and intelligent recommendations using multiple AI models</p>
+        </div>
+
+        <div class="features">
+            <div class="feature-card">
+                <span class="feature-icon">🤖</span>
+                <div class="feature-title">AI-Powered Automation</div>
+                <div class="feature-description">
+                    Uses multiple AI models (Gemini, Groq, OpenRouter) with automatic fallback for reliable analysis and recommendations.
+                </div>
+            </div>
+            
+            <div class="feature-card">
+                <span class="feature-icon">🏪</span>
+                <div class="feature-title">Multi-Store Support</div>
+                <div class="feature-description">
+                    Manage and analyze multiple Shopify stores from one unified dashboard with OAuth integration.
+                </div>
+            </div>
+            
+            <div class="feature-card">
+                <span class="feature-icon">📊</span>
+                <div class="feature-title">Comprehensive QA Analysis</div>
+                <div class="feature-description">
+                    SEO optimization, product quality checks, performance monitoring, security testing, and E2E testing.
+                </div>
+            </div>
+            
+            <div class="feature-card">
+                <span class="feature-icon">🔄</span>
+                <div class="feature-title">Real-time Fixes</div>
+                <div class="feature-description">
+                    Automatically detects and fixes issues in your Shopify store with intelligent recommendations.
+                </div>
+            </div>
+            
+            <div class="feature-card">
+                <span class="feature-icon">📈</span>
+                <div class="feature-title">Analytics & Reporting</div>
+                <div class="feature-description">
+                    Track historical data, generate reports, and monitor store performance over time.
+                </div>
+            </div>
+            
+            <div class="feature-card">
+                <span class="feature-icon">🌐</span>
+                <div class="feature-title">Web Dashboard</div>
+                <div class="feature-description">
+                    Beautiful, real-time dashboard with live updates and comprehensive store insights.
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-showcase">
+            <div class="stat-showcase">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Automated</div>
+            </div>
+            <div class="stat-showcase">
+                <div class="stat-number">3+</div>
+                <div class="stat-label">AI Models</div>
+            </div>
+            <div class="stat-showcase">
+                <div class="stat-number">∞</div>
+                <div class="stat-label">Stores</div>
+            </div>
+            <div class="stat-showcase">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">Monitoring</div>
+            </div>
+        </div>
+
+        <div class="tech-stack">
+            <h2>Built With Modern Technology</h2>
+            <div class="tech-items">
+                <div class="tech-item">Node.js</div>
+                <div class="tech-item">Express</div>
+                <div class="tech-item">Playwright</div>
+                <div class="tech-item">Gemini AI</div>
+                <div class="tech-item">Groq AI</div>
+                <div class="tech-item">OpenRouter</div>
+                <div class="tech-item">Shopify API</div>
+                <div class="tech-item">SQLite</div>
+                <div class="tech-item">Vercel</div>
+            </div>
+        </div>
+
+        <div class="install-section">
+            <h2>Get Started</h2>
+            <p>Install the app on your Shopify store or connect via API</p>
+            <a href="/?shop=your-store.myshopify.com" class="install-btn">Install on Shopify Store</a>
+            <p style="margin-top: 2rem; font-size: 0.9rem; color: #999;">
+                <a href="/api/status" style="color: #667eea; text-decoration: none;">API Status</a> | 
+                <a href="https://github.com/andreajoa/QA-AUTOMATION" style="color: #667eea; text-decoration: none;" target="_blank">GitHub Repository</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>© 2025 Shopify QA Automation - Cutting Edge System</p>
+        <p style="margin-top: 0.5rem; font-size: 0.9rem;">Open Source MIT License</p>
+    </div>
+
+    <script>
+        // Check API status on load
+        fetch('/api/status')
+            .then(res => res.json())
+            .then(data => {
+                console.log('API Status:', data);
+            })
+            .catch(err => {
+                console.log('API not available:', err);
+            });
+    </script>
+</body>
+</html>
+
