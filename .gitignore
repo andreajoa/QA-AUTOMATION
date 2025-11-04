@@ -3,3 +3,10 @@ config/config.json
 node_modules/
 *.log
 .DS_Store
+*.db
+*.db-journal
+.DS_Store
+dist/
+build/
+.env.local
+.env*.local

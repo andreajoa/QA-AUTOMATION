@@ -15,35 +15,35 @@ const __dirname = path.dirname(__filename);
 
 // CREDENCIAIS DO APP SHOPIFY
 const SHOPIFY_CONFIG = {
-  clientId: 'process.env.SHOPIFY_CLIENT_ID',
-  clientSecret: 'process.env.SHOPIFY_CLIENT_SECRET',
+  clientId: process.env.SHOPIFY_CLIENT_ID || '',
+  clientSecret: process.env.SHOPIFY_CLIENT_SECRET || '',
   scopes: 'read_products,read_orders,read_customers,read_analytics',
-  redirectUri: 'https://your-app-domain.com/auth/callback' // Atualizar para seu domínio
+  redirectUri: process.env.SHOPIFY_REDIRECT_URI || `${process.env.VERCEL_URL ? 'https://' + process.env.VERCEL_URL : 'https://your-app-domain.com'}/auth/callback`
 };
 
 // SISTEMA DE APIS COM FALLBACK AUTOMÁTICO
 const AI_APIS = {
   primary: {
     name: 'Gemini Pro',
-    key: 'AIzaSyBEgUPXGlzNmqG0SwQc1YPcKqCW14nrMu0',
+    key: process.env.GEMINI_API_KEY || '',
     url: 'https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent',
     model: 'gemini-pro'
   },
   fallback1: {
     name: 'Groq Llama',
-    key: 'process.env.GROQ_API_KEY',
+    key: process.env.GROQ_API_KEY || '',
     url: 'https://api.groq.com/openai/v1/chat/completions',
     model: 'llama3-8b-8192'
   },
   fallback2: {
     name: 'OpenRouter',
-    key: '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',
+    key: process.env.OPENROUTER_API_KEY || '',
     url: 'https://openrouter.ai/api/v1/chat/completions',
     model: 'microsoft/wizardlm-2-8x22b'
   },
   fallback3: {
     name: 'Groq Backup',
-    key: 'process.env.GROQ_API_KEY',
+    key: process.env.GROQ_API_KEY || '',
     url: 'https://api.groq.com/openai/v1/chat/completions',
     model: 'mixtral-8x7b-32768'
   }
@@ -51,10 +51,10 @@ const AI_APIS = {
 
 // APIS EXTERNAS PARA ANÁLISE COMPETITIVA
 const EXTERNAL_APIS = {
-  serpapi: '5403a17a63e12b204f9ee73c68a02db5dc7c38f5c0a4c4079775977a4bcd83b2',
-  google: 'AIzaSyBuTBat0IBjBEQnGhGghvjU5gjAQvn9jnE',
-  ahrefs: '101mlIWOnLIAAqIFWqIHUw',
-  firecrawl: 'fc-0e8d30f805224e9ebfb6f790b34a07b3'
+  serpapi: process.env.SERPAPI_KEY || '',
+  google: process.env.GOOGLE_API_KEY || '',
+  ahrefs: process.env.AHREFS_API_KEY || '',
+  firecrawl: process.env.FIRECRAWL_API_KEY || ''
 };
 
 class ShopifyOAuthManager {
@@ -303,13 +303,19 @@ class MultiStoreCuttingEdgeQASystem {
       res.json(stats);
     });
 
-    const PORT = process.env.PORT || 3000;
-    app.listen(PORT, () => {
-      console.log(chalk.blue(`🌐 QA Automation Multi-Store Dashboard iniciado!`));
-      console.log(chalk.cyan(`📱 Acesse: http://localhost:${PORT}`));
-      console.log(chalk.green(`🔐 OAuth configurado para múltiplas lojas`));
-      console.log(chalk.yellow(`🔄 Sistema de fallback de IA ativo`));
-    });
+    // Only start listening if not in Vercel environment
+    if (!process.env.VERCEL) {
+      const PORT = process.env.PORT || 3000;
+      app.listen(PORT, () => {
+        console.log(chalk.blue(`🌐 QA Automation Multi-Store Dashboard iniciado!`));
+        console.log(chalk.cyan(`📱 Acesse: http://localhost:${PORT}`));
+        console.log(chalk.green(`🔐 OAuth configurado para múltiplas lojas`));
+        console.log(chalk.yellow(`🔄 Sistema de fallback de IA ativo`));
+      });
+    }
+    
+    // Return app for Vercel
+    return app;
   }
 
   async saveInstalledStore(shop, accessToken) {
