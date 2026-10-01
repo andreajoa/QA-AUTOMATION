@@ -1,0 +1,65 @@
+name: VirtualBacon Research
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+  push:
+    paths:
+      - "virtualbacon/config.json"
+      - "virtualbacon/scripts/**"
+      - ".github/workflows/virtualbacon-research.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: virtualbacon-research
+  cancel-in-progress: false
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    timeout-minutes: 110
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install transcript tools
+        run: |
+          python -m pip install --upgrade pip
+          pip install yt-dlp youtube-transcript-api
+
+      - name: Build catalog once
+        run: |
+          if [ ! -f virtualbacon/catalog.jsonl ]; then
+            python virtualbacon/scripts/build_catalog.py
+          fi
+
+      - name: Analyze next batch
+        run: |
+          python virtualbacon/scripts/process_batch.py --minutes 75 --max-items 30
+
+      - name: Aggregate progress
+        if: always()
+        run: |
+          python virtualbacon/scripts/aggregate.py
+
+      - name: Save checkpoint
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add virtualbacon/catalog.jsonl virtualbacon/results virtualbacon/failures virtualbacon/progress.json virtualbacon/strategy_patterns.json 2>/dev/null || true
+          if ! git diff --cached --quiet; then
+            git commit -m "VirtualBacon automated research checkpoint"
+            git push
+          fi
