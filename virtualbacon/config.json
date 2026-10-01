@@ -1,0 +1,11 @@
+{
+  "channel": "https://www.youtube.com/@VirtualBacon",
+  "process_tabs": ["shorts", "streams"],
+  "time_budget_minutes": 80,
+  "max_items_per_run": 40,
+  "short_whisper_model": "tiny.en",
+  "stream_whisper_model": "base.en",
+  "language": "en",
+  "store_full_transcripts": false,
+  "research_only": true
+}
