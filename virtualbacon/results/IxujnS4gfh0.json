@@ -1,0 +1,60 @@
+{
+  "video_id": "IxujnS4gfh0",
+  "title": "Can Ethereum Outperform Bitcoin This Cycle?",
+  "url": "https://www.youtube.com/shorts/IxujnS4gfh0",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_transcript_api",
+  "processed_at": 1790979517,
+  "analysis": {
+    "transcript_sha256": "b26fc924e5f65614e2515250255b24aa8926fb32c15fb08889fa0000a1d65e0f",
+    "word_count": 134,
+    "category_counts": {
+      "btc_regime": 6,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 1,
+      "exit": 0,
+      "risk": 0,
+      "futures": 0,
+      "alt_relative": 2,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC",
+      "ETH"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "3x"
+    ],
+    "percentage_mentions": [],
+    "price_mentions": [
+      "$6,000"
+    ],
+    "time_horizon_mentions": [],
+    "indicators": [],
+    "action_counts": {
+      "buy": 1,
+      "sell": 0,
+      "hold": 0,
+      "wait": 0,
+      "short": 0,
+      "long": 0
+    }
+  }
+}

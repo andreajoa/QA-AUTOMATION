@@ -1,0 +1,92 @@
+{
+  "video_id": "JpZ2pw_Zi3U",
+  "title": "BlackRock Files Ethereum ETF, Will Crypto Rally Continue?",
+  "url": "https://www.youtube.com/watch?v=JpZ2pw_Zi3U",
+  "tab": "streams",
+  "duration_seconds": 2534,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1790979198,
+  "analysis": {
+    "transcript_sha256": "2456b179c18cc22f2d5891f57161d630e0f408b2b1e619b20581b03bb7a14efe",
+    "word_count": 6221,
+    "category_counts": {
+      "btc_regime": 49,
+      "moving_averages": 0,
+      "macro": 8,
+      "entry": 26,
+      "exit": 6,
+      "risk": 16,
+      "futures": 23,
+      "alt_relative": 4,
+      "narrative": 11,
+      "liquidity": 15
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "XRP",
+      "LINK"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [
+      "100%",
+      "4.5%",
+      "6%",
+      "75%",
+      "90%"
+    ],
+    "price_mentions": [
+      "$1 b",
+      "$11 ",
+      "$1900 ",
+      "$215 ",
+      "$218 ",
+      "$220 ",
+      "$42.5 ",
+      "$7 ",
+      "$84 ",
+      "$90 "
+    ],
+    "time_horizon_mentions": [
+      "10 days",
+      "12 day",
+      "4 hour",
+      "45 days",
+      "5 years",
+      "6 hours",
+      "8 day",
+      "8 days",
+      "90 days",
+      "five hours",
+      "one week",
+      "seven days",
+      "three days",
+      "two days",
+      "two weeks"
+    ],
+    "indicators": [],
+    "action_counts": {
+      "buy": 9,
+      "sell": 2,
+      "hold": 7,
+      "wait": 2,
+      "short": 9,
+      "long": 12
+    }
+  }
+}
