@@ -1,0 +1,41 @@
+{
+  "updated_at": 1790901344,
+  "videos_analyzed": 4,
+  "source_methods": {
+    "youtube_public_captions": 4
+  },
+  "category_occurrences": {
+    "btc_regime": 21,
+    "macro": 9,
+    "entry": 3,
+    "liquidity": 3,
+    "alt_relative": 2,
+    "narrative": 1,
+    "moving_averages": 0,
+    "exit": 0,
+    "risk": 0,
+    "futures": 0
+  },
+  "rule_video_counts": {
+    "macro_liquidity_matters": 1,
+    "measure_alts_vs_btc": 1,
+    "bitcoin_as_core": 1
+  },
+  "asset_video_counts": {
+    "BTC": 4,
+    "ETH": 2,
+    "SOL": 1,
+    "XRP": 1,
+    "DOGE": 1,
+    "NEAR": 1,
+    "HYPE": 1
+  },
+  "action_occurrences": {
+    "buy": 2,
+    "hold": 1,
+    "sell": 0,
+    "wait": 0,
+    "short": 0,
+    "long": 0
+  }
+}

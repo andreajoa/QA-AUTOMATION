@@ -1,0 +1,61 @@
+{
+  "video_id": "nvuascnH_7M",
+  "title": "Why Altcoins NEED global liquidity?",
+  "url": "https://www.youtube.com/shorts/nvuascnH_7M",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1790898727,
+  "analysis": {
+    "transcript_sha256": "fef2ec2906f5a4e1edbdb4cad5035cbd58c0dcfcdff5ff33dc5424cf648ed472",
+    "word_count": 237,
+    "category_counts": {
+      "btc_regime": 4,
+      "moving_averages": 0,
+      "macro": 6,
+      "entry": 0,
+      "exit": 0,
+      "risk": 0,
+      "futures": 0,
+      "alt_relative": 2,
+      "narrative": 0,
+      "liquidity": 3
+    },
+    "assets": [
+      "BTC",
+      "ETH"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": true,
+      "measure_alts_vs_btc": true,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [
+      "0%",
+      "3.8%"
+    ],
+    "price_mentions": [],
+    "time_horizon_mentions": [
+      "six year"
+    ],
+    "indicators": [],
+    "action_counts": {
+      "buy": 0,
+      "sell": 0,
+      "hold": 0,
+      "wait": 0,
+      "short": 0,
+      "long": 0
+    }
+  }
+}
