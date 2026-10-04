@@ -1,17 +1,17 @@
 {
-  "updated_at": 1791066494,
-  "videos_analyzed": 13,
+  "updated_at": 1791097428,
+  "videos_analyzed": 14,
   "source_methods": {
     "youtube_transcript_api": 3,
-    "youtube_public_captions": 10
+    "youtube_public_captions": 11
   },
   "category_occurrences": {
-    "btc_regime": 90,
+    "btc_regime": 91,
     "futures": 31,
     "entry": 30,
-    "narrative": 28,
-    "macro": 20,
-    "liquidity": 20,
+    "narrative": 29,
+    "macro": 21,
+    "liquidity": 21,
     "risk": 16,
     "exit": 8,
     "alt_relative": 8,
