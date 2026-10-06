@@ -1,0 +1,108 @@
+{
+  "video_id": "ZUo9x4mROU8",
+  "title": "My Q2 Game Plan for Bitcoin and the Stock Market.",
+  "url": "https://www.youtube.com/watch?v=ZUo9x4mROU8",
+  "tab": "streams",
+  "duration_seconds": 3026,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1791270003,
+  "analysis": {
+    "transcript_sha256": "9f9ac9a0862b210b0c052ca00ecc985958ed2243299bacfe347f1f69bedcbd9f",
+    "word_count": 6705,
+    "category_counts": {
+      "btc_regime": 21,
+      "moving_averages": 57,
+      "macro": 129,
+      "entry": 3,
+      "exit": 14,
+      "risk": 11,
+      "futures": 17,
+      "alt_relative": 0,
+      "narrative": 7,
+      "liquidity": 3
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "NEAR"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": true,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "2x"
+    ],
+    "percentage_mentions": [
+      "1%",
+      "10%",
+      "12%",
+      "13%",
+      "15%",
+      "16.5%",
+      "17%",
+      "2%",
+      "2.7%",
+      "23.8%",
+      "24%",
+      "26.8%",
+      "31%",
+      "34%",
+      "4.4%",
+      "40%",
+      "5%",
+      "54%",
+      "6%",
+      "7%",
+      "76%",
+      "78%",
+      "80%",
+      "9%",
+      "95%"
+    ],
+    "price_mentions": [
+      "$100 ",
+      "$77 m",
+      "$9 m"
+    ],
+    "time_horizon_mentions": [
+      "10 days",
+      "200 day",
+      "8 days",
+      "eight days",
+      "five days",
+      "five months",
+      "one week",
+      "six hours",
+      "six weeks",
+      "three months",
+      "three weeks",
+      "two days",
+      "two months",
+      "two weeks"
+    ],
+    "indicators": [
+      "200D MA",
+      "EMA",
+      "SMA"
+    ],
+    "action_counts": {
+      "buy": 3,
+      "sell": 2,
+      "hold": 0,
+      "wait": 1,
+      "short": 10,
+      "long": 7
+    }
+  }
+}
