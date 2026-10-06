@@ -1,0 +1,59 @@
+{
+  "video_id": "M0nX-x3ju_M",
+  "title": "Why this coin is a good buy!",
+  "url": "https://www.youtube.com/shorts/M0nX-x3ju_M",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1791247848,
+  "analysis": {
+    "transcript_sha256": "c0058a796420bef17cd3b2ada451c4b0e9ddf5c434ba7b839bcf448cf490079c",
+    "word_count": 152,
+    "category_counts": {
+      "btc_regime": 1,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 0,
+      "exit": 1,
+      "risk": 0,
+      "futures": 0,
+      "alt_relative": 0,
+      "narrative": 1,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [
+      "3 months",
+      "3 years",
+      "five months"
+    ],
+    "indicators": [],
+    "action_counts": {
+      "buy": 0,
+      "sell": 0,
+      "hold": 1,
+      "wait": 0,
+      "short": 0,
+      "long": 0
+    }
+  }
+}
