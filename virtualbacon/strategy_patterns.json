@@ -1,19 +1,19 @@
 {
-  "updated_at": 1791418702,
-  "videos_analyzed": 27,
+  "updated_at": 1791443649,
+  "videos_analyzed": 31,
   "source_methods": {
-    "youtube_transcript_api": 5,
-    "youtube_public_captions": 22
+    "youtube_transcript_api": 8,
+    "youtube_public_captions": 23
   },
   "category_occurrences": {
     "btc_regime": 158,
     "macro": 158,
+    "entry": 84,
     "futures": 82,
-    "entry": 81,
     "narrative": 58,
     "moving_averages": 57,
     "risk": 46,
-    "liquidity": 33,
+    "liquidity": 34,
     "exit": 26,
     "alt_relative": 16
   },
@@ -24,8 +24,8 @@
   },
   "asset_video_counts": {
     "BTC": 20,
-    "ETH": 14,
-    "SOL": 8,
+    "ETH": 16,
+    "SOL": 9,
     "XRP": 5,
     "LINK": 4,
     "DOGE": 3,
@@ -36,7 +36,7 @@
     "BNB": 1
   },
   "action_occurrences": {
-    "buy": 38,
+    "buy": 41,
     "long": 33,
     "short": 31,
     "hold": 30,
