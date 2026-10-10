@@ -1,0 +1,55 @@
+{
+  "video_id": "fpg4tpBNMmk",
+  "title": "What’s the most advanced A.I. Crypto network?",
+  "url": "https://www.youtube.com/shorts/fpg4tpBNMmk",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_transcript_api",
+  "processed_at": 1791637796,
+  "analysis": {
+    "transcript_sha256": "c931770ddae2657c528cdefdbd19de243d0b7632d32d5263d40dfab77af34a77",
+    "word_count": 123,
+    "category_counts": {
+      "btc_regime": 1,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 0,
+      "exit": 0,
+      "risk": 0,
+      "futures": 0,
+      "alt_relative": 0,
+      "narrative": 6,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [],
+    "indicators": [],
+    "action_counts": {
+      "buy": 0,
+      "sell": 0,
+      "hold": 0,
+      "wait": 0,
+      "short": 0,
+      "long": 0
+    }
+  }
+}

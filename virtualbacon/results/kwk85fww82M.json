@@ -1,0 +1,75 @@
+{
+  "video_id": "kwk85fww82M",
+  "title": "Bitcoin 50k by January 10, OR I Give Away 0.1 BTC",
+  "url": "https://www.youtube.com/watch?v=kwk85fww82M",
+  "tab": "streams",
+  "duration_seconds": 1900,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1791636420,
+  "analysis": {
+    "transcript_sha256": "5623d0c3a2cb4d07b6aa062a7735d756af6fa3ea2c565a22a1ae64ae7fc9d70d",
+    "word_count": 4784,
+    "category_counts": {
+      "btc_regime": 60,
+      "moving_averages": 0,
+      "macro": 1,
+      "entry": 17,
+      "exit": 14,
+      "risk": 6,
+      "futures": 29,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 12
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "LINK"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [
+      "5%",
+      "50%",
+      "95%"
+    ],
+    "price_mentions": [
+      "$39,000 ",
+      "$40,000 ",
+      "$458 m",
+      "$46,000 "
+    ],
+    "time_horizon_mentions": [
+      "3 weeks",
+      "30 days",
+      "35 days",
+      "40 days",
+      "5 years",
+      "three weeks",
+      "two days",
+      "two months"
+    ],
+    "indicators": [],
+    "action_counts": {
+      "buy": 7,
+      "sell": 2,
+      "hold": 2,
+      "wait": 2,
+      "short": 21,
+      "long": 7
+    }
+  }
+}
