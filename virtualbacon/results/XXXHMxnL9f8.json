@@ -1,0 +1,67 @@
+{
+  "video_id": "XXXHMxnL9f8",
+  "title": "Can XRP Flip Ethereum?  #xrp #ethereum #altcoins",
+  "url": "https://www.youtube.com/shorts/XXXHMxnL9f8",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_transcript_api",
+  "processed_at": 1791757430,
+  "analysis": {
+    "transcript_sha256": "6dc0548a9509866bdf2da81c609cabd6a88f53f8ab26945140f9c12ad1c04be1",
+    "word_count": 264,
+    "category_counts": {
+      "btc_regime": 2,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 0,
+      "exit": 2,
+      "risk": 0,
+      "futures": 2,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "XRP"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "3x"
+    ],
+    "percentage_mentions": [
+      "20%"
+    ],
+    "price_mentions": [
+      "$10",
+      "$10 "
+    ],
+    "time_horizon_mentions": [
+      "8 years",
+      "five months"
+    ],
+    "indicators": [],
+    "action_counts": {
+      "buy": 0,
+      "sell": 2,
+      "hold": 0,
+      "wait": 0,
+      "short": 1,
+      "long": 1
+    }
+  }
+}
