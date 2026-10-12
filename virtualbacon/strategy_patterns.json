@@ -1,8 +1,8 @@
 {
-  "updated_at": 1791788829,
-  "videos_analyzed": 52,
+  "updated_at": 1791822740,
+  "videos_analyzed": 53,
   "source_methods": {
-    "youtube_public_captions": 36,
+    "youtube_public_captions": 37,
     "youtube_transcript_api": 16
   },
   "category_occurrences": {
@@ -10,7 +10,7 @@
     "futures": 223,
     "macro": 192,
     "entry": 174,
-    "narrative": 146,
+    "narrative": 149,
     "liquidity": 91,
     "risk": 65,
     "moving_averages": 64,
