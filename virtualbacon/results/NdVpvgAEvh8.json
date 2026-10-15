@@ -1,0 +1,111 @@
+{
+  "video_id": "NdVpvgAEvh8",
+  "title": "Bitcoin Tests Bear Market Resistance as AI Earning Reports Loom Tonight",
+  "url": "https://www.youtube.com/watch?v=NdVpvgAEvh8",
+  "tab": "streams",
+  "duration_seconds": 5828,
+  "status": "analyzed",
+  "source_method": "youtube_transcript_api",
+  "processed_at": 1792063989,
+  "analysis": {
+    "transcript_sha256": "a98d631f3f4556e0055795690572eb00a789b6177be5aa0f23418beed175fa20",
+    "word_count": 11049,
+    "category_counts": {
+      "btc_regime": 141,
+      "moving_averages": 19,
+      "macro": 36,
+      "entry": 25,
+      "exit": 6,
+      "risk": 8,
+      "futures": 65,
+      "alt_relative": 7,
+      "narrative": 75,
+      "liquidity": 2
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "XRP",
+      "BNB",
+      "LINK",
+      "AVAX",
+      "NEAR",
+      "HYPE",
+      "TAO"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": true,
+      "bitcoin_as_core": true,
+      "altcoins_as_temporary_trades": true,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": true,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "10x",
+      "5x"
+    ],
+    "percentage_mentions": [
+      "0%",
+      "100%",
+      "15%",
+      "17%",
+      "18%",
+      "2.8%",
+      "23%",
+      "3.4%",
+      "31%",
+      "5%",
+      "68%",
+      "75%",
+      "8.4%",
+      "85%"
+    ],
+    "price_mentions": [
+      "$1",
+      "$1 b",
+      "$1.7 b",
+      "$100 ",
+      "$160",
+      "$300 m",
+      "$60 ",
+      "$71 ",
+      "$85 "
+    ],
+    "time_horizon_mentions": [
+      "1 month",
+      "10 days",
+      "2 days",
+      "2 months",
+      "2 weeks",
+      "2 years",
+      "20 days",
+      "2027 year",
+      "3 weeks",
+      "4 years",
+      "5 months",
+      "6 days",
+      "seven days"
+    ],
+    "indicators": [
+      "50W SMA/EMA",
+      "RSI",
+      "EMA",
+      "SMA"
+    ],
+    "action_counts": {
+      "buy": 21,
+      "sell": 1,
+      "hold": 8,
+      "wait": 6,
+      "short": 27,
+      "long": 37
+    }
+  }
+}
