@@ -1,0 +1,55 @@
+{
+  "video_id": "URs25HT8Brg",
+  "title": "Why I'm bullish on Cosmos long term 👀 #cosmos #atom #ibc #blockchain #interchain#osmosis #crosschain",
+  "url": "https://www.youtube.com/shorts/URs25HT8Brg",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1792252917,
+  "analysis": {
+    "transcript_sha256": "8b8fa5ed517eb227586a2f76f59fc0f71a139a8a99913c81c69c3f140afb78b5",
+    "word_count": 157,
+    "category_counts": {
+      "btc_regime": 1,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 0,
+      "exit": 0,
+      "risk": 0,
+      "futures": 1,
+      "alt_relative": 0,
+      "narrative": 1,
+      "liquidity": 0
+    },
+    "assets": [
+      "ETH"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [],
+    "indicators": [],
+    "action_counts": {
+      "buy": 0,
+      "sell": 0,
+      "hold": 0,
+      "wait": 0,
+      "short": 0,
+      "long": 1
+    }
+  }
+}
