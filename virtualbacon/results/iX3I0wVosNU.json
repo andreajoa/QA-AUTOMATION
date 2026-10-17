@@ -1,0 +1,105 @@
+{
+  "video_id": "iX3I0wVosNU",
+  "title": "Ethereum Hits $4,300, Parabolic Run or Pullback Ahead?",
+  "url": "https://www.youtube.com/watch?v=iX3I0wVosNU",
+  "tab": "streams",
+  "duration_seconds": 2816,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1792235996,
+  "analysis": {
+    "transcript_sha256": "7172466a3ebfdd5bf4b5d5f2578a73c160b2c21abeb7ef15c55fde84a3227a3c",
+    "word_count": 6795,
+    "category_counts": {
+      "btc_regime": 47,
+      "moving_averages": 0,
+      "macro": 15,
+      "entry": 29,
+      "exit": 4,
+      "risk": 5,
+      "futures": 17,
+      "alt_relative": 13,
+      "narrative": 11,
+      "liquidity": 1
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "XRP",
+      "BNB",
+      "DOGE",
+      "LINK",
+      "ADA",
+      "NEAR",
+      "HYPE"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": true,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "5x"
+    ],
+    "percentage_mentions": [
+      "10%",
+      "20%",
+      "40%",
+      "5%",
+      "59.5%",
+      "59.7%",
+      "60%",
+      "60.5%",
+      "62.5%",
+      "7.5%"
+    ],
+    "price_mentions": [
+      "$ 1.5 b",
+      "$1.5 b",
+      "$10",
+      "$20 b",
+      "$24 b",
+      "$4,300",
+      "$460 m",
+      "$600 m",
+      "$6600 ",
+      "$7,000"
+    ],
+    "time_horizon_mentions": [
+      "1 month",
+      "3 years",
+      "4 months",
+      "6 month",
+      "four days",
+      "one day",
+      "one month",
+      "one week",
+      "three months",
+      "three weeks",
+      "two days",
+      "two month",
+      "two months",
+      "two weeks"
+    ],
+    "indicators": [
+      "Bitcoin dominance"
+    ],
+    "action_counts": {
+      "buy": 28,
+      "sell": 4,
+      "hold": 14,
+      "wait": 1,
+      "short": 4,
+      "long": 10
+    }
+  }
+}
