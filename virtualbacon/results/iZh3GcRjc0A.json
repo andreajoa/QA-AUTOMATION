@@ -1,0 +1,60 @@
+{
+  "video_id": "iZh3GcRjc0A",
+  "title": "There’s over $6.7 Billion dollars flowing into Bitcoin",
+  "url": "https://www.youtube.com/shorts/iZh3GcRjc0A",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1792339603,
+  "analysis": {
+    "transcript_sha256": "99aa47a976eceee6f5b514773dcbbaae79a63c7ea8f8419e29c82ba7d061dad8",
+    "word_count": 146,
+    "category_counts": {
+      "btc_regime": 3,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 0,
+      "exit": 0,
+      "risk": 0,
+      "futures": 0,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [],
+    "price_mentions": [
+      "$6.7 b",
+      "$600 m"
+    ],
+    "time_horizon_mentions": [
+      "3 weeks"
+    ],
+    "indicators": [],
+    "action_counts": {
+      "buy": 0,
+      "sell": 0,
+      "hold": 0,
+      "wait": 0,
+      "short": 0,
+      "long": 0
+    }
+  }
+}

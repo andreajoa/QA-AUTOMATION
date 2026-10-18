@@ -1,0 +1,55 @@
+{
+  "video_id": "O24ZN-XnBVM",
+  "title": "This Bitcoin indicator shows when to take profit",
+  "url": "https://www.youtube.com/shorts/O24ZN-XnBVM",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1792342128,
+  "analysis": {
+    "transcript_sha256": "4902e4ef9895d0c06867faa61387ad9c00df58a5048e46d2e8ab12297f82da15",
+    "word_count": 173,
+    "category_counts": {
+      "btc_regime": 8,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 0,
+      "exit": 1,
+      "risk": 0,
+      "futures": 0,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [],
+    "indicators": [],
+    "action_counts": {
+      "buy": 0,
+      "sell": 0,
+      "hold": 0,
+      "wait": 0,
+      "short": 0,
+      "long": 0
+    }
+  }
+}
