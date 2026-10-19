@@ -1,0 +1,58 @@
+{
+  "video_id": "jm5_pTv8VKM",
+  "title": "My EXACT Bitcoin trade setup for the next few days.",
+  "url": "https://www.youtube.com/shorts/jm5_pTv8VKM",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1792417441,
+  "analysis": {
+    "transcript_sha256": "2136ae976e452063c5461577cda3f1ce641ac0d84daf49e864243e63802e85d6",
+    "word_count": 195,
+    "category_counts": {
+      "btc_regime": 3,
+      "moving_averages": 2,
+      "macro": 0,
+      "entry": 6,
+      "exit": 0,
+      "risk": 0,
+      "futures": 6,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [],
+    "indicators": [
+      "21W EMA",
+      "EMA"
+    ],
+    "action_counts": {
+      "buy": 0,
+      "sell": 0,
+      "hold": 0,
+      "wait": 0,
+      "short": 3,
+      "long": 4
+    }
+  }
+}
