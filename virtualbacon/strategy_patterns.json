@@ -1,15 +1,15 @@
 {
-  "updated_at": 1792360401,
-  "videos_analyzed": 120,
+  "updated_at": 1792389052,
+  "videos_analyzed": 121,
   "source_methods": {
-    "youtube_public_captions": 91,
+    "youtube_public_captions": 92,
     "youtube_transcript_api": 29
   },
   "category_occurrences": {
-    "btc_regime": 855,
+    "btc_regime": 856,
     "futures": 440,
     "macro": 393,
-    "narrative": 379,
+    "narrative": 381,
     "entry": 349,
     "liquidity": 134,
     "risk": 131,
@@ -32,7 +32,7 @@
     "SOL": 27,
     "XRP": 15,
     "LINK": 15,
-    "HYPE": 12,
+    "HYPE": 13,
     "AVAX": 10,
     "NEAR": 10,
     "ADA": 7,
