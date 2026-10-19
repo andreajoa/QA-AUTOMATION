@@ -1,0 +1,55 @@
+{
+  "video_id": "SXk5Cv9YIfk",
+  "title": "What is a Crypto Launchpad? #shorts  #crypto #launchpad #launchpool #ido #ico #ieo #binance #bnb",
+  "url": "https://www.youtube.com/shorts/SXk5Cv9YIfk",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1792450971,
+  "analysis": {
+    "transcript_sha256": "b9d7f055600926b475b6f7cca1f056ae48db0327531b596d600d669732d4cd84",
+    "word_count": 120,
+    "category_counts": {
+      "btc_regime": 0,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 3,
+      "exit": 0,
+      "risk": 0,
+      "futures": 0,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [
+      "one month"
+    ],
+    "indicators": [],
+    "action_counts": {
+      "buy": 3,
+      "sell": 0,
+      "hold": 1,
+      "wait": 0,
+      "short": 0,
+      "long": 0
+    }
+  }
+}
