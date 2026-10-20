@@ -1,8 +1,8 @@
 {
-  "updated_at": 1792452853,
-  "videos_analyzed": 128,
+  "updated_at": 1792476023,
+  "videos_analyzed": 129,
   "source_methods": {
-    "youtube_public_captions": 99,
+    "youtube_public_captions": 100,
     "youtube_transcript_api": 29
   },
   "category_occurrences": {
@@ -28,7 +28,7 @@
   },
   "asset_video_counts": {
     "BTC": 74,
-    "ETH": 55,
+    "ETH": 56,
     "SOL": 28,
     "XRP": 16,
     "LINK": 16,
