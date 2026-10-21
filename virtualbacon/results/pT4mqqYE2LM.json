@@ -1,0 +1,56 @@
+{
+  "video_id": "pT4mqqYE2LM",
+  "title": "Why this is really important for crypto #crypto #trading #altcoins",
+  "url": "https://www.youtube.com/shorts/pT4mqqYE2LM",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1792558405,
+  "analysis": {
+    "transcript_sha256": "67332f37e614cb462f1894339d193c0b4d68bf57d8408ff55ad427ee293220d3",
+    "word_count": 306,
+    "category_counts": {
+      "btc_regime": 1,
+      "moving_averages": 0,
+      "macro": 3,
+      "entry": 0,
+      "exit": 1,
+      "risk": 0,
+      "futures": 0,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [
+      "3.6%",
+      "4.1%"
+    ],
+    "price_mentions": [],
+    "time_horizon_mentions": [],
+    "indicators": [],
+    "action_counts": {
+      "buy": 0,
+      "sell": 1,
+      "hold": 0,
+      "wait": 0,
+      "short": 0,
+      "long": 0
+    }
+  }
+}
