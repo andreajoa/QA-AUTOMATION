@@ -1,0 +1,99 @@
+{
+  "video_id": "g712-NI-CfI",
+  "title": "Bitcoin vs Altcoin Dominance: Why This Cycle Could Be Huge For Altcoins",
+  "url": "https://www.youtube.com/watch?v=g712-NI-CfI",
+  "tab": "streams",
+  "duration_seconds": 5097,
+  "status": "analyzed",
+  "source_method": "youtube_transcript_api",
+  "processed_at": 1792623245,
+  "analysis": {
+    "transcript_sha256": "2760a5cf581b1427efa4ec51797fa2208968247687b7eb8760a203e8166e50f9",
+    "word_count": 11224,
+    "category_counts": {
+      "btc_regime": 130,
+      "moving_averages": 7,
+      "macro": 28,
+      "entry": 14,
+      "exit": 15,
+      "risk": 9,
+      "futures": 12,
+      "alt_relative": 13,
+      "narrative": 65,
+      "liquidity": 12
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "XRP",
+      "BNB",
+      "DOGE",
+      "ZEC"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": true,
+      "bitcoin_as_core": true,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": true,
+      "measure_alts_vs_btc": true,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "100x",
+      "10x",
+      "20x",
+      "2x",
+      "3x",
+      "5x"
+    ],
+    "percentage_mentions": [
+      "10%",
+      "100%",
+      "15%",
+      "22%",
+      "50%",
+      "56%",
+      "95%"
+    ],
+    "price_mentions": [
+      "$100 ",
+      "$25 b",
+      "$4,000 ",
+      "$7.8 b"
+    ],
+    "time_horizon_mentions": [
+      "10 minutes",
+      "11 months",
+      "2 months",
+      "200 day",
+      "3 months",
+      "5 days",
+      "50 week",
+      "four months",
+      "one month",
+      "one year",
+      "six months",
+      "three months",
+      "two years"
+    ],
+    "indicators": [
+      "50W SMA/EMA",
+      "200D MA",
+      "SMA",
+      "Bitcoin dominance"
+    ],
+    "action_counts": {
+      "buy": 12,
+      "sell": 2,
+      "hold": 6,
+      "wait": 7,
+      "short": 3,
+      "long": 8
+    }
+  }
+}

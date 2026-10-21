@@ -1,0 +1,57 @@
+{
+  "video_id": "L__KCHrb5fo",
+  "title": "What’s a market order in crypto? #crypto #investing #cryptotrading",
+  "url": "https://www.youtube.com/shorts/L__KCHrb5fo",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_transcript_api",
+  "processed_at": 1792619878,
+  "analysis": {
+    "transcript_sha256": "012683aa5276df78ea0b81102617e88d012306d76d44a7e7dc74c92bb7eeb34b",
+    "word_count": 210,
+    "category_counts": {
+      "btc_regime": 3,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 4,
+      "exit": 1,
+      "risk": 0,
+      "futures": 0,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 2
+    },
+    "assets": [
+      "BTC"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [],
+    "price_mentions": [
+      "$50,000 "
+    ],
+    "time_horizon_mentions": [],
+    "indicators": [],
+    "action_counts": {
+      "buy": 4,
+      "sell": 1,
+      "hold": 0,
+      "wait": 0,
+      "short": 0,
+      "long": 0
+    }
+  }
+}
