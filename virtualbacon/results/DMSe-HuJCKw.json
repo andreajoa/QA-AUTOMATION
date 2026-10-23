@@ -1,0 +1,88 @@
+{
+  "video_id": "DMSe-HuJCKw",
+  "title": "FOMC Breakdown: 2 More Rate Cuts by End of Year?",
+  "url": "https://www.youtube.com/watch?v=DMSe-HuJCKw",
+  "tab": "streams",
+  "duration_seconds": 1641,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1792731159,
+  "analysis": {
+    "transcript_sha256": "3b59de3775d52549ab2d03eb4a4e4686b39342c6f56d0c1ff40641c0568fd045",
+    "word_count": 4093,
+    "category_counts": {
+      "btc_regime": 9,
+      "moving_averages": 0,
+      "macro": 34,
+      "entry": 1,
+      "exit": 6,
+      "risk": 5,
+      "futures": 4,
+      "alt_relative": 1,
+      "narrative": 0,
+      "liquidity": 1
+    },
+    "assets": [
+      "BTC"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": true,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [
+      "0%",
+      "0.6%",
+      "2%",
+      "24%",
+      "27%",
+      "3.6%",
+      "3.9%",
+      "4%",
+      "4.1%",
+      "5%",
+      "50%",
+      "72%",
+      "75%",
+      "80%",
+      "82%",
+      "86%",
+      "94.97%",
+      "95%",
+      "98%"
+    ],
+    "price_mentions": [
+      "$5 b"
+    ],
+    "time_horizon_mentions": [
+      "1 hour",
+      "10 months",
+      "50 minutes",
+      "one day",
+      "one year",
+      "three months",
+      "three weeks",
+      "two years"
+    ],
+    "indicators": [
+      "Bitcoin dominance"
+    ],
+    "action_counts": {
+      "buy": 1,
+      "sell": 6,
+      "hold": 9,
+      "wait": 0,
+      "short": 2,
+      "long": 2
+    }
+  }
+}
