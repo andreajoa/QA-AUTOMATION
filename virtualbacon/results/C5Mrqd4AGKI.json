@@ -1,0 +1,97 @@
+{
+  "video_id": "C5Mrqd4AGKI",
+  "title": "Is Chainlink Still Worth Buying in 2025?",
+  "url": "https://www.youtube.com/watch?v=C5Mrqd4AGKI",
+  "tab": "streams",
+  "duration_seconds": 2752,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1792756977,
+  "analysis": {
+    "transcript_sha256": "11cae951089fecabd46e9224a4c5a8c2d4c1a028021a382dde07e9d65c735d32",
+    "word_count": 6046,
+    "category_counts": {
+      "btc_regime": 54,
+      "moving_averages": 0,
+      "macro": 4,
+      "entry": 12,
+      "exit": 1,
+      "risk": 1,
+      "futures": 8,
+      "alt_relative": 7,
+      "narrative": 18,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "XRP",
+      "DOGE",
+      "LINK"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "2x",
+      "5x"
+    ],
+    "percentage_mentions": [
+      "1.7%",
+      "1.8%",
+      "61.8%",
+      "8%",
+      "9%"
+    ],
+    "price_mentions": [
+      "$10 ",
+      "$10.90",
+      "$10.90 ",
+      "$100",
+      "$100 ",
+      "$140",
+      "$180 b",
+      "$45",
+      "$5 m",
+      "$50 ",
+      "$50, ",
+      "$52 ",
+      "$52 b",
+      "$60 m",
+      "$90",
+      "$90 "
+    ],
+    "time_horizon_mentions": [
+      "2 months",
+      "2 years",
+      "3 months",
+      "6 months",
+      "8 years",
+      "three months",
+      "two months",
+      "two years"
+    ],
+    "indicators": [
+      "Bitcoin dominance"
+    ],
+    "action_counts": {
+      "buy": 9,
+      "sell": 1,
+      "hold": 7,
+      "wait": 1,
+      "short": 5,
+      "long": 3
+    }
+  }
+}
