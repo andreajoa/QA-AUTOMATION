@@ -1,54 +1,54 @@
 {
-  "updated_at": 1792820825,
-  "videos_analyzed": 163,
+  "updated_at": 1792843763,
+  "videos_analyzed": 166,
   "source_methods": {
-    "youtube_public_captions": 124,
+    "youtube_public_captions": 127,
     "youtube_transcript_api": 39
   },
   "category_occurrences": {
-    "btc_regime": 1343,
-    "narrative": 628,
-    "futures": 609,
-    "macro": 605,
-    "entry": 560,
-    "risk": 194,
-    "liquidity": 188,
-    "moving_averages": 185,
-    "alt_relative": 177,
-    "exit": 157
+    "btc_regime": 1428,
+    "macro": 720,
+    "narrative": 640,
+    "futures": 626,
+    "entry": 582,
+    "liquidity": 251,
+    "moving_averages": 204,
+    "risk": 200,
+    "alt_relative": 190,
+    "exit": 174
   },
   "rule_video_counts": {
+    "macro_liquidity_matters": 9,
     "bitcoin_as_core": 8,
-    "macro_liquidity_matters": 8,
-    "wait_for_weekly_confirmation": 4,
-    "measure_alts_vs_btc": 3,
+    "wait_for_weekly_confirmation": 5,
+    "measure_alts_vs_btc": 4,
     "altcoins_as_temporary_trades": 2,
     "use_50w_for_confirmation": 1,
     "buy_in_tranches": 1,
     "use_200w_for_value": 1
   },
   "asset_video_counts": {
-    "BTC": 93,
-    "ETH": 75,
+    "BTC": 95,
+    "ETH": 76,
     "SOL": 37,
     "LINK": 25,
-    "XRP": 21,
+    "XRP": 22,
     "HYPE": 18,
-    "AVAX": 15,
+    "AVAX": 16,
+    "DOGE": 15,
     "NEAR": 15,
-    "DOGE": 14,
     "ADA": 11,
-    "BNB": 7,
+    "BNB": 8,
     "TAO": 3,
     "ZEC": 1,
     "XMR": 1
   },
   "action_occurrences": {
-    "buy": 339,
-    "long": 291,
-    "short": 214,
-    "hold": 210,
-    "sell": 99,
-    "wait": 71
+    "buy": 357,
+    "long": 302,
+    "hold": 227,
+    "short": 215,
+    "sell": 116,
+    "wait": 79
   }
 }

@@ -1,0 +1,98 @@
+{
+  "video_id": "GhCVhgWrNio",
+  "title": "Why Now Is the WORST Time to Sell Your Crypto",
+  "url": "https://www.youtube.com/watch?v=GhCVhgWrNio",
+  "tab": "streams",
+  "duration_seconds": 2891,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1792840933,
+  "analysis": {
+    "transcript_sha256": "3db27b2416cab046be9c9627f6fe982a65e46f2bad6ac105eefdbe99ae5e4205",
+    "word_count": 6918,
+    "category_counts": {
+      "btc_regime": 81,
+      "moving_averages": 14,
+      "macro": 115,
+      "entry": 21,
+      "exit": 17,
+      "risk": 6,
+      "futures": 16,
+      "alt_relative": 13,
+      "narrative": 12,
+      "liquidity": 63
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "XRP",
+      "BNB"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": true,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": true,
+      "measure_alts_vs_btc": true,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [
+      "50%",
+      "60.5%",
+      "62%",
+      "70%"
+    ],
+    "price_mentions": [
+      "$130",
+      "$150 ",
+      "$185",
+      "$185 b",
+      "$230 ",
+      "$35 b",
+      "$385 ",
+      "$42,000",
+      "$470 ",
+      "$6.59 ",
+      "$7,000 ",
+      "$9 "
+    ],
+    "time_horizon_mentions": [
+      "1 hour",
+      "10 week",
+      "10 weeks",
+      "100 days",
+      "12 weeks",
+      "128 days",
+      "15 months",
+      "4 year",
+      "6 months",
+      "four year",
+      "four years",
+      "three days",
+      "two days",
+      "two months",
+      "two weeks",
+      "two years"
+    ],
+    "indicators": [
+      "50W SMA/EMA",
+      "SMA",
+      "Bitcoin dominance",
+      "M2 liquidity"
+    ],
+    "action_counts": {
+      "buy": 18,
+      "sell": 17,
+      "hold": 15,
+      "wait": 8,
+      "short": 1,
+      "long": 10
+    }
+  }
+}
