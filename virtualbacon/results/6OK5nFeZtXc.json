@@ -1,0 +1,95 @@
+{
+  "video_id": "6OK5nFeZtXc",
+  "title": "My Bitcoin and Altcoin Plans Going into 2026",
+  "url": "https://www.youtube.com/watch?v=6OK5nFeZtXc",
+  "tab": "streams",
+  "duration_seconds": 3079,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1792947649,
+  "analysis": {
+    "transcript_sha256": "8fda6fa313591492e2eda98b480f3d009d6d130a102b145e158647fc72903f1b",
+    "word_count": 7012,
+    "category_counts": {
+      "btc_regime": 154,
+      "moving_averages": 34,
+      "macro": 70,
+      "entry": 12,
+      "exit": 10,
+      "risk": 22,
+      "futures": 15,
+      "alt_relative": 9,
+      "narrative": 16,
+      "liquidity": 29
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "XRP",
+      "BNB"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": true,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": true,
+      "measure_alts_vs_btc": true,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": true,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "2x",
+      "3x"
+    ],
+    "percentage_mentions": [
+      "10%",
+      "100%",
+      "20%",
+      "5%",
+      "50%",
+      "70%",
+      "76%",
+      "80%",
+      "82.9%",
+      "84%",
+      "85%"
+    ],
+    "price_mentions": [],
+    "time_horizon_mentions": [
+      "1 month",
+      "100 week",
+      "12 months",
+      "2 weeks",
+      "2 years",
+      "200 week",
+      "3 weeks",
+      "50 minutes",
+      "50 week",
+      "four year",
+      "one year",
+      "six months",
+      "two years"
+    ],
+    "indicators": [
+      "50W SMA/EMA",
+      "200W SMA",
+      "200D MA",
+      "SMA",
+      "Bitcoin dominance",
+      "M2 liquidity"
+    ],
+    "action_counts": {
+      "buy": 8,
+      "sell": 9,
+      "hold": 10,
+      "wait": 2,
+      "short": 6,
+      "long": 8
+    }
+  }
+}

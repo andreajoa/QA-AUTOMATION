@@ -1,0 +1,76 @@
+{
+  "video_id": "2VE1prVmwYA",
+  "title": "SEC Just Made the Most Bullish Crypto Move in History",
+  "url": "https://www.youtube.com/watch?v=2VE1prVmwYA",
+  "tab": "streams",
+  "duration_seconds": 2733,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1792947718,
+  "analysis": {
+    "transcript_sha256": "b94876e64483011259095cbb29575e3d69072d48b7010faf9fec95eb92166a6b",
+    "word_count": 6524,
+    "category_counts": {
+      "btc_regime": 6,
+      "moving_averages": 0,
+      "macro": 1,
+      "entry": 8,
+      "exit": 5,
+      "risk": 2,
+      "futures": 23,
+      "alt_relative": 0,
+      "narrative": 6,
+      "liquidity": 2
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "XRP",
+      "DOGE",
+      "LINK"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": true,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [
+      "3%",
+      "51%"
+    ],
+    "price_mentions": [
+      "$1 m",
+      "$1,000 ",
+      "$50 m"
+    ],
+    "time_horizon_mentions": [
+      "4 year",
+      "5 years",
+      "6 months",
+      "eight years",
+      "four years",
+      "one year",
+      "three years",
+      "two years"
+    ],
+    "indicators": [],
+    "action_counts": {
+      "buy": 6,
+      "sell": 6,
+      "hold": 1,
+      "wait": 0,
+      "short": 1,
+      "long": 8
+    }
+  }
+}
