@@ -1,0 +1,57 @@
+{
+  "video_id": "0F6yJpdAXlI",
+  "title": "Nvidia Is the Safest AI Bet Right Now",
+  "url": "https://www.youtube.com/shorts/0F6yJpdAXlI",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1793021332,
+  "analysis": {
+    "transcript_sha256": "6ea076f5d71ab8d207e4745c9e9ed72ecc969ab07aace3c356be7453279215ca",
+    "word_count": 178,
+    "category_counts": {
+      "btc_regime": 0,
+      "moving_averages": 0,
+      "macro": 1,
+      "entry": 0,
+      "exit": 0,
+      "risk": 2,
+      "futures": 2,
+      "alt_relative": 0,
+      "narrative": 7,
+      "liquidity": 0
+    },
+    "assets": [],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [
+      "90%"
+    ],
+    "price_mentions": [
+      "$690 b"
+    ],
+    "time_horizon_mentions": [],
+    "indicators": [],
+    "action_counts": {
+      "buy": 0,
+      "sell": 0,
+      "hold": 0,
+      "wait": 0,
+      "short": 1,
+      "long": 1
+    }
+  }
+}
