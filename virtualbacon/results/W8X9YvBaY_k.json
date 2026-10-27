@@ -1,0 +1,58 @@
+{
+  "video_id": "W8X9YvBaY_k",
+  "title": "I’m selling half of all my BTC and ETH",
+  "url": "https://www.youtube.com/shorts/W8X9YvBaY_k",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1793124244,
+  "analysis": {
+    "transcript_sha256": "1831b46027073854e5dc22128b1429c9281f18c95e01630f1703a724906ab664",
+    "word_count": 175,
+    "category_counts": {
+      "btc_regime": 4,
+      "moving_averages": 3,
+      "macro": 0,
+      "entry": 1,
+      "exit": 1,
+      "risk": 1,
+      "futures": 0,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC",
+      "ETH"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [],
+    "indicators": [
+      "21W EMA"
+    ],
+    "action_counts": {
+      "buy": 1,
+      "sell": 0,
+      "hold": 0,
+      "wait": 0,
+      "short": 0,
+      "long": 0
+    }
+  }
+}
