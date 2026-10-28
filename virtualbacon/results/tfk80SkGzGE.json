@@ -1,0 +1,86 @@
+{
+  "video_id": "tfk80SkGzGE",
+  "title": "Did the Fed Trigger a Bull Run? Why I'm Still Cautious",
+  "url": "https://www.youtube.com/watch?v=tfk80SkGzGE",
+  "tab": "streams",
+  "duration_seconds": 2625,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1793227365,
+  "analysis": {
+    "transcript_sha256": "18f1afdeaf4122119c0b0284d5b2b6cd0111af5a8efe25ecd92d8fb1be1bc0a6",
+    "word_count": 6337,
+    "category_counts": {
+      "btc_regime": 23,
+      "moving_averages": 0,
+      "macro": 134,
+      "entry": 4,
+      "exit": 8,
+      "risk": 6,
+      "futures": 8,
+      "alt_relative": 11,
+      "narrative": 5,
+      "liquidity": 45
+    },
+    "assets": [
+      "BTC",
+      "ETH"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": true,
+      "measure_alts_vs_btc": true,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [
+      "0%",
+      "1.7%",
+      "3%",
+      "3.75%",
+      "3.8%",
+      "3.875%",
+      "4.4%",
+      "60%",
+      "90%"
+    ],
+    "price_mentions": [
+      "$25 b",
+      "$3 ",
+      "$5 b",
+      "$550 b"
+    ],
+    "time_horizon_mentions": [
+      "10 months",
+      "3 months",
+      "5 years",
+      "6 months",
+      "8 months",
+      "eight months",
+      "nine days",
+      "six months",
+      "six years",
+      "three years",
+      "two years"
+    ],
+    "indicators": [
+      "Bitcoin dominance",
+      "M2 liquidity"
+    ],
+    "action_counts": {
+      "buy": 3,
+      "sell": 8,
+      "hold": 4,
+      "wait": 3,
+      "short": 1,
+      "long": 7
+    }
+  }
+}
