@@ -1,0 +1,56 @@
+{
+  "video_id": "ZgJL8U9gSeo",
+  "title": "Why you should denominate Portfolio in Bitcoin 🤔 #shorts  #bitcoin #btc #crypto #portfolio",
+  "url": "https://www.youtube.com/shorts/ZgJL8U9gSeo",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1793168263,
+  "analysis": {
+    "transcript_sha256": "03d1178092003a780d7020674936f1e1545df9d8e344b3990c6383182761918d",
+    "word_count": 131,
+    "category_counts": {
+      "btc_regime": 2,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 3,
+      "exit": 0,
+      "risk": 0,
+      "futures": 3,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC",
+      "ETH"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [],
+    "indicators": [],
+    "action_counts": {
+      "buy": 1,
+      "sell": 0,
+      "hold": 0,
+      "wait": 0,
+      "short": 3,
+      "long": 0
+    }
+  }
+}

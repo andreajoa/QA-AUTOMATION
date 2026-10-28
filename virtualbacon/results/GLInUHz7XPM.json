@@ -1,0 +1,81 @@
+{
+  "video_id": "GLInUHz7XPM",
+  "title": "AI Stocks Keep Falling. Which Ones to Buy and When.",
+  "url": "https://www.youtube.com/watch?v=GLInUHz7XPM",
+  "tab": "streams",
+  "duration_seconds": 2506,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1793169703,
+  "analysis": {
+    "transcript_sha256": "a295610c66e188c313c41fb513fa3ec802ba36abe5dfe893fc476c42eebae64b",
+    "word_count": 5746,
+    "category_counts": {
+      "btc_regime": 2,
+      "moving_averages": 4,
+      "macro": 40,
+      "entry": 11,
+      "exit": 4,
+      "risk": 7,
+      "futures": 37,
+      "alt_relative": 0,
+      "narrative": 66,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC",
+      "HYPE"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "5x"
+    ],
+    "percentage_mentions": [
+      "196%",
+      "40%",
+      "50%",
+      "66%",
+      "75%",
+      "90%"
+    ],
+    "price_mentions": [
+      "$1 ",
+      "$1.7 ",
+      "$1.75 "
+    ],
+    "time_horizon_mentions": [
+      "2 months",
+      "2 years",
+      "3 days",
+      "3 months",
+      "3 weeks",
+      "3 years",
+      "three weeks",
+      "two weeks"
+    ],
+    "indicators": [
+      "200D MA",
+      "SMA"
+    ],
+    "action_counts": {
+      "buy": 10,
+      "sell": 0,
+      "hold": 2,
+      "wait": 1,
+      "short": 17,
+      "long": 16
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "video_id": "6gUNMeMpVMw",
+  "title": "Tesla buys $1.5 Billion in Bitcoin!!!",
+  "url": "https://www.youtube.com/shorts/6gUNMeMpVMw",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1793169104,
+  "analysis": {
+    "transcript_sha256": "4f8aa0c6b5a78f33662e3a4463d5c1f5e00691a660c517c3bb2b3227792c8843",
+    "word_count": 196,
+    "category_counts": {
+      "btc_regime": 9,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 1,
+      "exit": 0,
+      "risk": 1,
+      "futures": 0,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "NEAR"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [],
+    "indicators": [],
+    "action_counts": {
+      "buy": 3,
+      "sell": 0,
+      "hold": 1,
+      "wait": 0,
+      "short": 0,
+      "long": 0
+    }
+  }
+}

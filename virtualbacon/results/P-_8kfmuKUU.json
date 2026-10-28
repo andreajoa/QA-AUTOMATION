@@ -1,0 +1,58 @@
+{
+  "video_id": "P-_8kfmuKUU",
+  "title": "Last one did 1000X (Bear Market Secret Technique 🤫)",
+  "url": "https://www.youtube.com/shorts/P-_8kfmuKUU",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1793168797,
+  "analysis": {
+    "transcript_sha256": "1644a7b4d78d38719b39eb904c8404fc7d7573275477ac071c5cae946df72ad7",
+    "word_count": 146,
+    "category_counts": {
+      "btc_regime": 4,
+      "moving_averages": 0,
+      "macro": 1,
+      "entry": 0,
+      "exit": 0,
+      "risk": 0,
+      "futures": 1,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "SOL",
+      "AVAX"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "100x"
+    ],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [],
+    "indicators": [],
+    "action_counts": {
+      "buy": 0,
+      "sell": 0,
+      "hold": 0,
+      "wait": 0,
+      "short": 1,
+      "long": 0
+    }
+  }
+}

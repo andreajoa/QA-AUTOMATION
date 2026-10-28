@@ -1,0 +1,58 @@
+{
+  "video_id": "g1OSYEYB7yY",
+  "title": "Here's Why Ethereum will flip Bitcoin in 2023 🫢 #ethereum #eth #bitcoin #btc #crypto",
+  "url": "https://www.youtube.com/shorts/g1OSYEYB7yY",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1793168125,
+  "analysis": {
+    "transcript_sha256": "981901cc6e95b1fd42ed9ea4b459351b91d874d1b202ffaa52d40029defe5028",
+    "word_count": 205,
+    "category_counts": {
+      "btc_regime": 5,
+      "moving_averages": 0,
+      "macro": 1,
+      "entry": 1,
+      "exit": 0,
+      "risk": 0,
+      "futures": 1,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC",
+      "ETH"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "100x"
+    ],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [],
+    "indicators": [],
+    "action_counts": {
+      "buy": 0,
+      "sell": 0,
+      "hold": 1,
+      "wait": 0,
+      "short": 0,
+      "long": 1
+    }
+  }
+}
