@@ -1,0 +1,103 @@
+{
+  "video_id": "l3pRRDtqYeU",
+  "title": "CLARITY Act Final Deadline, Trump Pushing: Will It Pass?",
+  "url": "https://www.youtube.com/watch?v=l3pRRDtqYeU",
+  "tab": "streams",
+  "duration_seconds": 5511,
+  "status": "analyzed",
+  "source_method": "youtube_transcript_api",
+  "processed_at": 1793317411,
+  "analysis": {
+    "transcript_sha256": "7c0b34eb3d35f3824574ebc8521b0b323e4e95da4a63cbce57887bd697e6c7c4",
+    "word_count": 11227,
+    "category_counts": {
+      "btc_regime": 20,
+      "moving_averages": 3,
+      "macro": 12,
+      "entry": 12,
+      "exit": 13,
+      "risk": 8,
+      "futures": 25,
+      "alt_relative": 0,
+      "narrative": 17,
+      "liquidity": 1
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "XRP",
+      "LINK",
+      "TAO"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": true,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "5x"
+    ],
+    "percentage_mentions": [
+      "10%",
+      "2%",
+      "20%",
+      "22%",
+      "30%",
+      "31%",
+      "5%",
+      "50%",
+      "6%",
+      "60%",
+      "65%",
+      "75%",
+      "90%",
+      "95%"
+    ],
+    "price_mentions": [
+      "$1 b",
+      "$10 b",
+      "$10,000",
+      "$100 b",
+      "$110",
+      "$2 ",
+      "$200 m",
+      "$5 m",
+      "$50 m",
+      "$75 m"
+    ],
+    "time_horizon_mentions": [
+      "10 years",
+      "12 months",
+      "18 months",
+      "180 days",
+      "30 hours",
+      "four days",
+      "four years",
+      "six months",
+      "three months",
+      "three years",
+      "two days",
+      "two years"
+    ],
+    "indicators": [
+      "SMA"
+    ],
+    "action_counts": {
+      "buy": 8,
+      "sell": 4,
+      "hold": 15,
+      "wait": 5,
+      "short": 5,
+      "long": 16
+    }
+  }
+}

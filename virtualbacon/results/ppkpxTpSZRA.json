@@ -1,0 +1,58 @@
+{
+  "video_id": "ppkpxTpSZRA",
+  "title": "What is the Bitcoin Stock-to-Flow Model?",
+  "url": "https://www.youtube.com/shorts/ppkpxTpSZRA",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1793314599,
+  "analysis": {
+    "transcript_sha256": "8a0e9f311e8c61a78917fa336c25bc4fb80d4c338fdef5ab580e18f517892b10",
+    "word_count": 184,
+    "category_counts": {
+      "btc_regime": 4,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 0,
+      "exit": 0,
+      "risk": 0,
+      "futures": 1,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [
+      "10 years",
+      "four years"
+    ],
+    "indicators": [],
+    "action_counts": {
+      "buy": 0,
+      "sell": 0,
+      "hold": 0,
+      "wait": 0,
+      "short": 0,
+      "long": 1
+    }
+  }
+}
