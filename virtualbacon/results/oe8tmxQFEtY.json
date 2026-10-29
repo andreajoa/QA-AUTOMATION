@@ -1,0 +1,120 @@
+{
+  "video_id": "oe8tmxQFEtY",
+  "title": "Top Altcoins to Buy at the Bottom of This Bear Market",
+  "url": "https://www.youtube.com/watch?v=oe8tmxQFEtY",
+  "tab": "streams",
+  "duration_seconds": 3436,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1793281173,
+  "analysis": {
+    "transcript_sha256": "1d8af8ba22e667eb4ada1fa23d406d07fb997c2b0273ff2fa9f894a5b3a4de1d",
+    "word_count": 7360,
+    "category_counts": {
+      "btc_regime": 113,
+      "moving_averages": 2,
+      "macro": 0,
+      "entry": 44,
+      "exit": 0,
+      "risk": 8,
+      "futures": 9,
+      "alt_relative": 31,
+      "narrative": 39,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "XRP",
+      "BNB",
+      "DOGE",
+      "NEAR",
+      "ZEC",
+      "HYPE"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": true,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": true,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "10x",
+      "3x"
+    ],
+    "percentage_mentions": [
+      "10%",
+      "20%",
+      "22%",
+      "28%",
+      "29%",
+      "30%",
+      "32%",
+      "33%",
+      "33.4%",
+      "36.4%",
+      "36.5%",
+      "36.78%",
+      "37%",
+      "42.5%",
+      "48%",
+      "50%",
+      "57.6%",
+      "60%",
+      "63%",
+      "64%",
+      "65%",
+      "7%",
+      "72.6%",
+      "72.7%",
+      "88%",
+      "9.1%"
+    ],
+    "price_mentions": [
+      "$1 ",
+      "$1,500 ",
+      "$111",
+      "$180",
+      "$180, ",
+      "$2 ",
+      "$28 ",
+      "$29 b",
+      "$35",
+      "$450 ",
+      "$47.8 ",
+      "$56 ",
+      "$60",
+      "$75, "
+    ],
+    "time_horizon_mentions": [
+      "2 weeks",
+      "3 years",
+      "5 years",
+      "eight months",
+      "five years",
+      "one week",
+      "six months",
+      "two weeks",
+      "two years"
+    ],
+    "indicators": [
+      "SMA"
+    ],
+    "action_counts": {
+      "buy": 33,
+      "sell": 0,
+      "hold": 18,
+      "wait": 4,
+      "short": 2,
+      "long": 6
+    }
+  }
+}
