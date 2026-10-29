@@ -1,0 +1,83 @@
+{
+  "video_id": "oFcYuAkFs4E",
+  "title": "Trends and Gems with Viperr, Mahi, Luke, VB - BaconDAO Community Call",
+  "url": "https://www.youtube.com/watch?v=oFcYuAkFs4E",
+  "tab": "streams",
+  "duration_seconds": 5465,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1793254754,
+  "analysis": {
+    "transcript_sha256": "f2b30ca705e17064376981ed6ca455449b1fb69478968447b74174be30fe275c",
+    "word_count": 12966,
+    "category_counts": {
+      "btc_regime": 7,
+      "moving_averages": 0,
+      "macro": 10,
+      "entry": 40,
+      "exit": 9,
+      "risk": 3,
+      "futures": 50,
+      "alt_relative": 0,
+      "narrative": 51,
+      "liquidity": 9
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "XRP",
+      "BNB",
+      "LINK",
+      "AVAX",
+      "HYPE"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "100x",
+      "10x",
+      "20x",
+      "2x",
+      "3x",
+      "5x"
+    ],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [
+      "10 minutes",
+      "20 minutes",
+      "24 hours",
+      "five months",
+      "one day",
+      "one hour",
+      "seven days",
+      "three months",
+      "three weeks",
+      "two day",
+      "two days",
+      "two week",
+      "two weeks"
+    ],
+    "indicators": [],
+    "action_counts": {
+      "buy": 28,
+      "sell": 13,
+      "hold": 8,
+      "wait": 13,
+      "short": 2,
+      "long": 11
+    }
+  }
+}

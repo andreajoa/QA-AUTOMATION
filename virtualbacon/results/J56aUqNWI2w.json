@@ -1,0 +1,69 @@
+{
+  "video_id": "J56aUqNWI2w",
+  "title": "These crypto traders shocked me! #crypto #altcoins #trading",
+  "url": "https://www.youtube.com/shorts/J56aUqNWI2w",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1793255339,
+  "analysis": {
+    "transcript_sha256": "3db5243b8021995668f066bb656f5da913dc809c100d069503f87a31ff6b446a",
+    "word_count": 332,
+    "category_counts": {
+      "btc_regime": 8,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 0,
+      "exit": 0,
+      "risk": 0,
+      "futures": 0,
+      "alt_relative": 1,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "100x"
+    ],
+    "percentage_mentions": [
+      "0%",
+      "46%"
+    ],
+    "price_mentions": [
+      "$10,000",
+      "$10,000 ",
+      "$100 "
+    ],
+    "time_horizon_mentions": [
+      "12 hours",
+      "2 years"
+    ],
+    "indicators": [
+      "Bitcoin dominance"
+    ],
+    "action_counts": {
+      "buy": 0,
+      "sell": 0,
+      "hold": 4,
+      "wait": 1,
+      "short": 0,
+      "long": 0
+    }
+  }
+}
