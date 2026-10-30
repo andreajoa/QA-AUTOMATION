@@ -1,0 +1,79 @@
+{
+  "video_id": "AlgSeAhVqtI",
+  "title": "Bitcoin ranging, Market analysis, BaconDAO Community Call",
+  "url": "https://www.youtube.com/watch?v=AlgSeAhVqtI",
+  "tab": "streams",
+  "duration_seconds": 7625,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1793365505,
+  "analysis": {
+    "transcript_sha256": "b9104b3eab900dd4fe0bab588ca11ac2e1fb81c719499ed28463683ea342c882",
+    "word_count": 18512,
+    "category_counts": {
+      "btc_regime": 72,
+      "moving_averages": 0,
+      "macro": 5,
+      "entry": 58,
+      "exit": 13,
+      "risk": 19,
+      "futures": 29,
+      "alt_relative": 8,
+      "narrative": 26,
+      "liquidity": 5
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "XRP",
+      "BNB",
+      "LINK",
+      "AVAX",
+      "ADA",
+      "NEAR",
+      "HYPE"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "100x",
+      "10x",
+      "2x"
+    ],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [
+      "12 months",
+      "30 days",
+      "70 days",
+      "four hour",
+      "one day",
+      "three days",
+      "two minutes",
+      "two years"
+    ],
+    "indicators": [
+      "Bitcoin dominance"
+    ],
+    "action_counts": {
+      "buy": 25,
+      "sell": 11,
+      "hold": 19,
+      "wait": 8,
+      "short": 7,
+      "long": 22
+    }
+  }
+}
