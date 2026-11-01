@@ -1,0 +1,60 @@
+{
+  "video_id": "IEkv-MFief8",
+  "title": "Is this Bitcoin cycle over? #bitcoin #crypto #cryptotrading",
+  "url": "https://www.youtube.com/shorts/IEkv-MFief8",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1793542384,
+  "analysis": {
+    "transcript_sha256": "42cefa4ae6e2bca36962a46dde01f156703f3526e8675cb125d2f44ab14e4be4",
+    "word_count": 186,
+    "category_counts": {
+      "btc_regime": 8,
+      "moving_averages": 5,
+      "macro": 0,
+      "entry": 0,
+      "exit": 0,
+      "risk": 0,
+      "futures": 0,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [
+      "2 months"
+    ],
+    "indicators": [
+      "21W EMA",
+      "EMA"
+    ],
+    "action_counts": {
+      "buy": 0,
+      "sell": 0,
+      "hold": 0,
+      "wait": 0,
+      "short": 0,
+      "long": 0
+    }
+  }
+}
