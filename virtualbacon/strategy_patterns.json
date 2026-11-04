@@ -1,13 +1,13 @@
 {
-  "updated_at": 1793752386,
-  "videos_analyzed": 333,
+  "updated_at": 1793777246,
+  "videos_analyzed": 334,
   "source_methods": {
-    "youtube_public_captions": 289,
+    "youtube_public_captions": 290,
     "youtube_transcript_api": 44
   },
   "category_occurrences": {
-    "btc_regime": 2809,
-    "narrative": 1281,
+    "btc_regime": 2810,
+    "narrative": 1285,
     "macro": 1264,
     "entry": 1136,
     "futures": 1122,
@@ -29,12 +29,12 @@
     "use_50w_for_confirmation": 1
   },
   "asset_video_counts": {
-    "BTC": 192,
+    "BTC": 193,
     "ETH": 142,
     "SOL": 66,
     "LINK": 41,
     "XRP": 40,
-    "HYPE": 37,
+    "HYPE": 38,
     "AVAX": 30,
     "DOGE": 29,
     "NEAR": 24,
