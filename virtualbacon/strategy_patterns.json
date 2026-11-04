@@ -1,9 +1,9 @@
 {
-  "updated_at": 1793719308,
-  "videos_analyzed": 332,
+  "updated_at": 1793752386,
+  "videos_analyzed": 333,
   "source_methods": {
     "youtube_public_captions": 289,
-    "youtube_transcript_api": 43
+    "youtube_transcript_api": 44
   },
   "category_occurrences": {
     "btc_regime": 2809,
@@ -19,8 +19,8 @@
   },
   "rule_video_counts": {
     "macro_liquidity_matters": 15,
-    "bitcoin_as_core": 12,
     "measure_alts_vs_btc": 12,
+    "bitcoin_as_core": 12,
     "wait_for_weekly_confirmation": 6,
     "altcoins_as_temporary_trades": 5,
     "buy_in_tranches": 3,
@@ -35,7 +35,7 @@
     "LINK": 41,
     "XRP": 40,
     "HYPE": 37,
-    "AVAX": 29,
+    "AVAX": 30,
     "DOGE": 29,
     "NEAR": 24,
     "ADA": 20,
