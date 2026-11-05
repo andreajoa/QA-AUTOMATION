@@ -1,0 +1,62 @@
+{
+  "video_id": "k6Y4iCGp8gc",
+  "title": "Crypto Portfolio Breakdown",
+  "url": "https://www.youtube.com/shorts/k6Y4iCGp8gc",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1793839034,
+  "analysis": {
+    "transcript_sha256": "75e3f52ded93439454ccfdc0fabc427ff1f53c89f1c8580e723bae097c7279b8",
+    "word_count": 170,
+    "category_counts": {
+      "btc_regime": 3,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 0,
+      "exit": 0,
+      "risk": 1,
+      "futures": 5,
+      "alt_relative": 0,
+      "narrative": 1,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "LINK"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "price_mentions": [],
+    "time_horizon_mentions": [],
+    "indicators": [],
+    "action_counts": {
+      "buy": 0,
+      "sell": 0,
+      "hold": 0,
+      "wait": 0,
+      "short": 2,
+      "long": 3
+    }
+  }
+}
