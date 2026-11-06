@@ -1,0 +1,57 @@
+{
+  "video_id": "O_uY4nJzn0E",
+  "title": "Are Launchpads worth it?",
+  "url": "https://www.youtube.com/shorts/O_uY4nJzn0E",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_transcript_api",
+  "processed_at": 1793995928,
+  "analysis": {
+    "transcript_sha256": "b5e98b5cda72b03aafc24c8031af6406ca7bff9676d96319dc9786cc1163e217",
+    "word_count": 181,
+    "category_counts": {
+      "btc_regime": 0,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 1,
+      "exit": 0,
+      "risk": 0,
+      "futures": 0,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "HYPE"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [
+      "two days"
+    ],
+    "indicators": [],
+    "action_counts": {
+      "buy": 0,
+      "sell": 0,
+      "hold": 1,
+      "wait": 0,
+      "short": 0,
+      "long": 0
+    }
+  }
+}
