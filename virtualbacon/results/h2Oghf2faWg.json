@@ -1,0 +1,93 @@
+{
+  "video_id": "h2Oghf2faWg",
+  "title": "Bitcoin Ranging, Alts Raging! New Gem Opportunities",
+  "url": "https://www.youtube.com/watch?v=h2Oghf2faWg",
+  "tab": "streams",
+  "duration_seconds": 7205,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1794339837,
+  "analysis": {
+    "transcript_sha256": "1ab90091e666050024c0109ac2cac338e397e17a4856aaabf4a2421dd5e8a454",
+    "word_count": 15727,
+    "category_counts": {
+      "btc_regime": 109,
+      "moving_averages": 2,
+      "macro": 5,
+      "entry": 76,
+      "exit": 34,
+      "risk": 21,
+      "futures": 57,
+      "alt_relative": 11,
+      "narrative": 28,
+      "liquidity": 11
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "BNB",
+      "LINK",
+      "AVAX",
+      "NEAR",
+      "HYPE"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "10x",
+      "20x",
+      "25x",
+      "2x"
+    ],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [
+      "10 days",
+      "10 years",
+      "12 days",
+      "12 hours",
+      "15 minutes",
+      "30 minutes",
+      "60 days",
+      "70 years",
+      "four days",
+      "four hour",
+      "four years",
+      "one month",
+      "seven days",
+      "six months",
+      "three days",
+      "three months",
+      "three years",
+      "two hours",
+      "two months",
+      "two weeks"
+    ],
+    "indicators": [
+      "21W EMA",
+      "RSI",
+      "EMA",
+      "Bitcoin dominance"
+    ],
+    "action_counts": {
+      "buy": 48,
+      "sell": 21,
+      "hold": 16,
+      "wait": 13,
+      "short": 18,
+      "long": 25
+    }
+  }
+}

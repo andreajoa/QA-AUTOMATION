@@ -1,0 +1,87 @@
+{
+  "video_id": "4L0-vcCAcUU",
+  "title": "BREAKING: Bitcoin ETF APPROVED! What’s Next?",
+  "url": "https://www.youtube.com/watch?v=4L0-vcCAcUU",
+  "tab": "streams",
+  "duration_seconds": 1740,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1794339688,
+  "analysis": {
+    "transcript_sha256": "6b2074179393ebe452c64c4488548999debbbb02bd3e085fdb3a6a495ae1f8f6",
+    "word_count": 4535,
+    "category_counts": {
+      "btc_regime": 73,
+      "moving_averages": 0,
+      "macro": 4,
+      "entry": 4,
+      "exit": 6,
+      "risk": 2,
+      "futures": 34,
+      "alt_relative": 2,
+      "narrative": 5,
+      "liquidity": 11
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "LINK",
+      "HYPE"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "5x"
+    ],
+    "percentage_mentions": [
+      "0%",
+      "100%",
+      "5%",
+      "50%",
+      "90%",
+      "96%"
+    ],
+    "price_mentions": [
+      "$2,000 b",
+      "$30,000 ",
+      "$33,000 ",
+      "$400 ",
+      "$8,000 "
+    ],
+    "time_horizon_mentions": [
+      "111 days",
+      "15 minutes",
+      "18 years",
+      "40 days",
+      "5 minutes",
+      "6 months",
+      "five minute",
+      "one month",
+      "one week",
+      "six years",
+      "three months",
+      "two weeks"
+    ],
+    "indicators": [],
+    "action_counts": {
+      "buy": 0,
+      "sell": 3,
+      "hold": 0,
+      "wait": 2,
+      "short": 5,
+      "long": 13
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "video_id": "E0TOPZuKENw",
+  "title": "Can Ethereum Beat Bitcoin in 2024?",
+  "url": "https://www.youtube.com/watch?v=E0TOPZuKENw",
+  "tab": "streams",
+  "duration_seconds": 2807,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1794339698,
+  "analysis": {
+    "transcript_sha256": "07ba91ad7148442ea523a4b7909a533bd63ca5f87dc583e03bafa0de0c180bf7",
+    "word_count": 6776,
+    "category_counts": {
+      "btc_regime": 83,
+      "moving_averages": 0,
+      "macro": 1,
+      "entry": 4,
+      "exit": 2,
+      "risk": 3,
+      "futures": 23,
+      "alt_relative": 24,
+      "narrative": 13,
+      "liquidity": 1
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "XRP",
+      "HYPE"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": true,
+      "bitcoin_as_core": true,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "100x",
+      "10x",
+      "20x",
+      "2x",
+      "3x",
+      "50x",
+      "5x"
+    ],
+    "percentage_mentions": [
+      "1.8%",
+      "10%",
+      "100%",
+      "150%",
+      "16%",
+      "16.75%",
+      "160%",
+      "2.6%",
+      "20%",
+      "21%",
+      "23%",
+      "25%",
+      "40%",
+      "42%",
+      "50%",
+      "60%",
+      "69%",
+      "80%",
+      "99%"
+    ],
+    "price_mentions": [
+      "$100 ",
+      "$150 ",
+      "$162 b",
+      "$250 ",
+      "$300 b",
+      "$325 b",
+      "$54 "
+    ],
+    "time_horizon_mentions": [
+      "33 days",
+      "5 years",
+      "6 months",
+      "one month",
+      "six months",
+      "two month",
+      "two years"
+    ],
+    "indicators": [],
+    "action_counts": {
+      "buy": 1,
+      "sell": 0,
+      "hold": 10,
+      "wait": 2,
+      "short": 12,
+      "long": 10
+    }
+  }
+}

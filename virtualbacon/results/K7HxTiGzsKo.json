@@ -1,0 +1,72 @@
+{
+  "video_id": "K7HxTiGzsKo",
+  "title": "BaconDAO Community Call: BTC, ETH, Dominance Analysis, BSC, Polka, NFT News",
+  "url": "https://www.youtube.com/watch?v=K7HxTiGzsKo",
+  "tab": "streams",
+  "duration_seconds": 5590,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1794339935,
+  "analysis": {
+    "transcript_sha256": "a6666c13dbaa6cd9a547d6face4e5088a9cce81a688a90ef5ba18e2e8c6a57f4",
+    "word_count": 13965,
+    "category_counts": {
+      "btc_regime": 121,
+      "moving_averages": 0,
+      "macro": 20,
+      "entry": 33,
+      "exit": 6,
+      "risk": 7,
+      "futures": 34,
+      "alt_relative": 38,
+      "narrative": 8,
+      "liquidity": 8
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "BNB",
+      "LINK",
+      "ADA"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": true,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "2x"
+    ],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [
+      "10 minutes",
+      "16 hours",
+      "five weeks",
+      "one day",
+      "six months",
+      "three months",
+      "two weeks"
+    ],
+    "indicators": [
+      "Bitcoin dominance"
+    ],
+    "action_counts": {
+      "buy": 17,
+      "sell": 5,
+      "hold": 7,
+      "wait": 2,
+      "short": 9,
+      "long": 23
+    }
+  }
+}

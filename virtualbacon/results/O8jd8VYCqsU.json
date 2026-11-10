@@ -1,0 +1,78 @@
+{
+  "video_id": "O8jd8VYCqsU",
+  "title": "BITCOIN PUMP CONTINUES, BINANCE LIST SPELL? DOT, MOVR, JOE, SYN",
+  "url": "https://www.youtube.com/watch?v=O8jd8VYCqsU",
+  "tab": "streams",
+  "duration_seconds": 4669,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1794339863,
+  "analysis": {
+    "transcript_sha256": "283be193d45e85576da59b048ef0cdbb366fb5b2cbf84c7a0754279c8325b431",
+    "word_count": 11315,
+    "category_counts": {
+      "btc_regime": 62,
+      "moving_averages": 0,
+      "macro": 5,
+      "entry": 71,
+      "exit": 12,
+      "risk": 25,
+      "futures": 34,
+      "alt_relative": 14,
+      "narrative": 23,
+      "liquidity": 13
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "DOGE",
+      "LINK",
+      "AVAX",
+      "ADA"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "5x"
+    ],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [
+      "14 days",
+      "20 minutes",
+      "five hours",
+      "four weeks",
+      "six hours",
+      "six months",
+      "three days",
+      "three months",
+      "three weeks",
+      "two days",
+      "two months",
+      "two weeks"
+    ],
+    "indicators": [
+      "Bitcoin dominance"
+    ],
+    "action_counts": {
+      "buy": 24,
+      "sell": 6,
+      "hold": 28,
+      "wait": 17,
+      "short": 10,
+      "long": 19
+    }
+  }
+}

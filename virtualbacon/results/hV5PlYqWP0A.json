@@ -1,0 +1,76 @@
+{
+  "video_id": "hV5PlYqWP0A",
+  "title": "Twitter Supports NFT, BRIDGE COINS PUMPING, LIvestream",
+  "url": "https://www.youtube.com/watch?v=hV5PlYqWP0A",
+  "tab": "streams",
+  "duration_seconds": 2314,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1794339891,
+  "analysis": {
+    "transcript_sha256": "99f66fd2fcefd7d40c387c79aae33c38f3ccf837f77b2352b4ca79ff8859d50b",
+    "word_count": 5478,
+    "category_counts": {
+      "btc_regime": 13,
+      "moving_averages": 9,
+      "macro": 0,
+      "entry": 30,
+      "exit": 1,
+      "risk": 7,
+      "futures": 10,
+      "alt_relative": 7,
+      "narrative": 16,
+      "liquidity": 1
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "LINK",
+      "AVAX",
+      "NEAR"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "10x",
+      "3x"
+    ],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [
+      "30 minutes",
+      "four days",
+      "four hour",
+      "seven day",
+      "seven days",
+      "three days",
+      "two months",
+      "two weeks"
+    ],
+    "indicators": [
+      "21W EMA",
+      "EMA",
+      "Bitcoin dominance"
+    ],
+    "action_counts": {
+      "buy": 11,
+      "sell": 1,
+      "hold": 4,
+      "wait": 3,
+      "short": 2,
+      "long": 8
+    }
+  }
+}

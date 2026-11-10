@@ -1,0 +1,97 @@
+{
+  "video_id": "2--ulw6r1Tw",
+  "title": "Top Cryptos I'm Buying in the New Altcoin Season",
+  "url": "https://www.youtube.com/watch?v=2--ulw6r1Tw",
+  "tab": "streams",
+  "duration_seconds": 2667,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1794339740,
+  "analysis": {
+    "transcript_sha256": "05fa9a0761e522b25454b4333474816a947380340b3226a4e97c43e763652634",
+    "word_count": 6514,
+    "category_counts": {
+      "btc_regime": 30,
+      "moving_averages": 0,
+      "macro": 4,
+      "entry": 52,
+      "exit": 3,
+      "risk": 35,
+      "futures": 42,
+      "alt_relative": 5,
+      "narrative": 46,
+      "liquidity": 3
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "LINK",
+      "AVAX",
+      "HYPE"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "10x"
+    ],
+    "percentage_mentions": [
+      "50%",
+      "6%",
+      "70%"
+    ],
+    "price_mentions": [
+      "$10.70 ",
+      "$11 m",
+      "$12 ",
+      "$150 ",
+      "$250 ",
+      "$250 b",
+      "$27 ",
+      "$4 ",
+      "$47 ",
+      "$8 ",
+      "$820 ",
+      "$880 ",
+      "$9 ",
+      "$940 ",
+      "$950 ",
+      "$960 "
+    ],
+    "time_horizon_mentions": [
+      "3 months",
+      "4 hour",
+      "4 hours",
+      "5 years",
+      "6 months",
+      "four days",
+      "one week",
+      "two days",
+      "two months",
+      "two weeks"
+    ],
+    "indicators": [
+      "RSI",
+      "Bitcoin dominance"
+    ],
+    "action_counts": {
+      "buy": 10,
+      "sell": 1,
+      "hold": 3,
+      "wait": 2,
+      "short": 22,
+      "long": 20
+    }
+  }
+}

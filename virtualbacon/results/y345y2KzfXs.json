@@ -1,0 +1,89 @@
+{
+  "video_id": "y345y2KzfXs",
+  "title": "Bitcoin continues ranging, more ALTCOIN PUMPS!",
+  "url": "https://www.youtube.com/watch?v=y345y2KzfXs",
+  "tab": "streams",
+  "duration_seconds": 4464,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1794339833,
+  "analysis": {
+    "transcript_sha256": "3a05ed433e4a56d53d2624d540867d73f6967b98ea7e3ce57a9d6c56781ec8e8",
+    "word_count": 9592,
+    "category_counts": {
+      "btc_regime": 30,
+      "moving_averages": 10,
+      "macro": 10,
+      "entry": 49,
+      "exit": 9,
+      "risk": 7,
+      "futures": 13,
+      "alt_relative": 8,
+      "narrative": 6,
+      "liquidity": 2
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "LINK",
+      "AVAX",
+      "NEAR"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "1x",
+      "25x",
+      "2x",
+      "3x",
+      "5x"
+    ],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [
+      "12 hour",
+      "96 weeks",
+      "five weeks",
+      "four hours",
+      "four weeks",
+      "one week",
+      "seven day",
+      "seven days",
+      "seven weeks",
+      "six months",
+      "six weeks",
+      "three days",
+      "three weeks",
+      "two days",
+      "two minutes",
+      "two weeks"
+    ],
+    "indicators": [
+      "200W SMA",
+      "21W EMA",
+      "RSI",
+      "EMA",
+      "Bitcoin dominance"
+    ],
+    "action_counts": {
+      "buy": 14,
+      "sell": 4,
+      "hold": 10,
+      "wait": 14,
+      "short": 3,
+      "long": 10
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "video_id": "6_f1pNfgPEo",
+  "title": "Kaspa Crypto Price Potential? Pros and Cons Comparison versus Other Cryptos",
+  "url": "https://www.youtube.com/watch?v=6_f1pNfgPEo",
+  "tab": "streams",
+  "duration_seconds": 2377,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1794339777,
+  "analysis": {
+    "transcript_sha256": "5c549bd905a8d41ccd27e97a9d5777a97ab0237ee1b916f7789d8b845cea70f1",
+    "word_count": 5398,
+    "category_counts": {
+      "btc_regime": 33,
+      "moving_averages": 0,
+      "macro": 1,
+      "entry": 14,
+      "exit": 0,
+      "risk": 3,
+      "futures": 7,
+      "alt_relative": 1,
+      "narrative": 1,
+      "liquidity": 8
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "XRP",
+      "LINK",
+      "AVAX",
+      "NEAR",
+      "HYPE"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": true,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [
+      "13%",
+      "18%",
+      "19%",
+      "20%",
+      "25%",
+      "51%",
+      "70%",
+      "90%"
+    ],
+    "price_mentions": [],
+    "time_horizon_mentions": [
+      "10 years",
+      "13 years",
+      "2 years",
+      "26 month",
+      "3 years",
+      "5 years",
+      "four years",
+      "nine years",
+      "one day",
+      "one month",
+      "one year",
+      "two years"
+    ],
+    "indicators": [],
+    "action_counts": {
+      "buy": 3,
+      "sell": 0,
+      "hold": 1,
+      "wait": 2,
+      "short": 1,
+      "long": 6
+    }
+  }
+}

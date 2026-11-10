@@ -1,0 +1,72 @@
+{
+  "video_id": "FHJZcYs2gY4",
+  "title": "Bitcoin ETF Fake News: Should you be Worried?",
+  "url": "https://www.youtube.com/watch?v=FHJZcYs2gY4",
+  "tab": "streams",
+  "duration_seconds": 1940,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1794339754,
+  "analysis": {
+    "transcript_sha256": "033bdbf84937ae41c0648a3fef880490ed5a2c79735ac8810ca1407099bbcf5b",
+    "word_count": 4830,
+    "category_counts": {
+      "btc_regime": 55,
+      "moving_averages": 7,
+      "macro": 2,
+      "entry": 19,
+      "exit": 7,
+      "risk": 13,
+      "futures": 45,
+      "alt_relative": 0,
+      "narrative": 1,
+      "liquidity": 3
+    },
+    "assets": [
+      "BTC",
+      "LINK"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [
+      "20%",
+      "23%"
+    ],
+    "price_mentions": [
+      "$100 m",
+      "$28,300 ",
+      "$28,500 ",
+      "$3,700 "
+    ],
+    "time_horizon_mentions": [
+      "240 day",
+      "5 years",
+      "four days",
+      "one hour",
+      "one year"
+    ],
+    "indicators": [
+      "EMA"
+    ],
+    "action_counts": {
+      "buy": 8,
+      "sell": 0,
+      "hold": 0,
+      "wait": 0,
+      "short": 23,
+      "long": 18
+    }
+  }
+}

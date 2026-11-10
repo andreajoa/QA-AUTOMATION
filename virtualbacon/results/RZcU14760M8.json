@@ -1,0 +1,101 @@
+{
+  "video_id": "RZcU14760M8",
+  "title": "Best Cryptos to Trade Now: Bitcoin, Chainlink, Ethereum and More",
+  "url": "https://www.youtube.com/watch?v=RZcU14760M8",
+  "tab": "streams",
+  "duration_seconds": 2958,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1794339770,
+  "analysis": {
+    "transcript_sha256": "be25fb37f61f4436feddb0cee7cf0270612aa945be72c4143c8be1480f1d1e79",
+    "word_count": 7000,
+    "category_counts": {
+      "btc_regime": 38,
+      "moving_averages": 0,
+      "macro": 5,
+      "entry": 47,
+      "exit": 5,
+      "risk": 9,
+      "futures": 51,
+      "alt_relative": 12,
+      "narrative": 9,
+      "liquidity": 5
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "BNB",
+      "LINK",
+      "HYPE"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": true,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "3x",
+      "5x"
+    ],
+    "percentage_mentions": [
+      "100%",
+      "25%",
+      "40%",
+      "52%"
+    ],
+    "price_mentions": [
+      "$1 ",
+      "$1,000 M",
+      "$1,200 ",
+      "$1,500 ",
+      "$1.5 ",
+      "$1.90 ",
+      "$1.95 ",
+      "$120 m",
+      "$135 ",
+      "$140 ",
+      "$2 ",
+      "$210 ",
+      "$3 ",
+      "$4 ",
+      "$4.4 ",
+      "$45 ",
+      "$465 M",
+      "$6 ",
+      "$7 b",
+      "$8 "
+    ],
+    "time_horizon_mentions": [
+      "1 month",
+      "10 days",
+      "3 month",
+      "3 months",
+      "3 weeks",
+      "5 years",
+      "6 months",
+      "four month",
+      "one month",
+      "two years"
+    ],
+    "indicators": [
+      "Bitcoin dominance"
+    ],
+    "action_counts": {
+      "buy": 12,
+      "sell": 3,
+      "hold": 15,
+      "wait": 12,
+      "short": 32,
+      "long": 21
+    }
+  }
+}
