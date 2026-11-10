@@ -1,0 +1,58 @@
+{
+  "video_id": "-U-5hf5_V70",
+  "title": "Bitcoin ETF Delayed 🥲",
+  "url": "https://www.youtube.com/shorts/-U-5hf5_V70",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1794296832,
+  "analysis": {
+    "transcript_sha256": "3fa2c728913d39d6674a6a1bcc06e4aa16eb189225cd5a011ef6c6288cfd0b42",
+    "word_count": 127,
+    "category_counts": {
+      "btc_regime": 3,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 0,
+      "exit": 3,
+      "risk": 0,
+      "futures": 1,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [
+      "220 days",
+      "45 days"
+    ],
+    "indicators": [],
+    "action_counts": {
+      "buy": 0,
+      "sell": 0,
+      "hold": 0,
+      "wait": 0,
+      "short": 0,
+      "long": 1
+    }
+  }
+}
