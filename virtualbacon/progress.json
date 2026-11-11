@@ -1,13 +1,13 @@
 {
-  "updated_at": 1794340188,
+  "updated_at": 1794379539,
   "catalog_total": 2172,
   "target_total_shorts_streams": 1992,
-  "analyzed_total": 409,
+  "analyzed_total": 439,
   "analyzed_by_tab": {
     "streams": 75,
-    "shorts": 334
+    "shorts": 364
   },
-  "pending_total": 1583,
-  "failure_records": 1583,
-  "completion_pct": 20.53
+  "pending_total": 1553,
+  "failure_records": 1553,
+  "completion_pct": 22.04
 }
