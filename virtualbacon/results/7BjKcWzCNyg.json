@@ -1,0 +1,55 @@
+{
+  "video_id": "7BjKcWzCNyg",
+  "title": "Robinhood's New Crypto Wallet already doing millions 😳  #robinhood #crypto",
+  "url": "https://www.youtube.com/shorts/7BjKcWzCNyg",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1794406870,
+  "analysis": {
+    "transcript_sha256": "105a24c5d620d3684eb102df9704fef1128b2eebd32e8cd80b1f84777d60a54b",
+    "word_count": 136,
+    "category_counts": {
+      "btc_regime": 0,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 2,
+      "exit": 0,
+      "risk": 0,
+      "futures": 1,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "ETH"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [],
+    "indicators": [],
+    "action_counts": {
+      "buy": 0,
+      "sell": 0,
+      "hold": 0,
+      "wait": 1,
+      "short": 0,
+      "long": 1
+    }
+  }
+}

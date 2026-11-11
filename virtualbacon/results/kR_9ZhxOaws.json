@@ -1,0 +1,53 @@
+{
+  "video_id": "kR_9ZhxOaws",
+  "title": "SEC attacks Binance Stablecoin; should you worry? 🤔 #sec #binance #bnb #busd #usdc #usdt #stablecoin",
+  "url": "https://www.youtube.com/shorts/kR_9ZhxOaws",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1794406833,
+  "analysis": {
+    "transcript_sha256": "4027507c95eb70e412bf231676c4e93d0b6c1f96ea7df5cc96da5cc553992bca",
+    "word_count": 181,
+    "category_counts": {
+      "btc_regime": 0,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 1,
+      "exit": 0,
+      "risk": 0,
+      "futures": 0,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [],
+    "indicators": [],
+    "action_counts": {
+      "buy": 1,
+      "sell": 0,
+      "hold": 0,
+      "wait": 0,
+      "short": 0,
+      "long": 0
+    }
+  }
+}
