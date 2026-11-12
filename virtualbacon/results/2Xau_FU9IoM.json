@@ -1,0 +1,103 @@
+{
+  "video_id": "2Xau_FU9IoM",
+  "title": "US Bond Yields Hit 19-Year Highs. Good or Bad for Bitcoin?",
+  "url": "https://www.youtube.com/watch?v=2Xau_FU9IoM",
+  "tab": "streams",
+  "duration_seconds": 4920,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1794445264,
+  "analysis": {
+    "transcript_sha256": "e193458f296f6651f3e7f975df093582fe364b47e4bb8eec8a597a16a516782f",
+    "word_count": 10868,
+    "category_counts": {
+      "btc_regime": 169,
+      "moving_averages": 30,
+      "macro": 55,
+      "entry": 65,
+      "exit": 14,
+      "risk": 21,
+      "futures": 41,
+      "alt_relative": 0,
+      "narrative": 45,
+      "liquidity": 5
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "XRP",
+      "BNB",
+      "LINK",
+      "NEAR",
+      "ZEC",
+      "HYPE"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": true,
+      "bitcoin_as_core": true,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": true,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "100x",
+      "10x",
+      "2x"
+    ],
+    "percentage_mentions": [
+      "15%",
+      "2%",
+      "20%",
+      "3.3%",
+      "3.4%",
+      "4%",
+      "4.6%",
+      "4.9%",
+      "5.3%",
+      "50%",
+      "80%",
+      "85%"
+    ],
+    "price_mentions": [
+      "$100 ",
+      "$15k",
+      "$400",
+      "$600",
+      "$620 b",
+      "$800 b"
+    ],
+    "time_horizon_mentions": [
+      "1 month",
+      "2 hours",
+      "2 months",
+      "2 years",
+      "3 months",
+      "3 weeks",
+      "30 years",
+      "4 hours",
+      "5 days",
+      "four hours",
+      "one day"
+    ],
+    "indicators": [
+      "50W SMA/EMA",
+      "200W SMA",
+      "SMA"
+    ],
+    "action_counts": {
+      "buy": 52,
+      "sell": 6,
+      "hold": 36,
+      "wait": 16,
+      "short": 18,
+      "long": 15
+    }
+  }
+}

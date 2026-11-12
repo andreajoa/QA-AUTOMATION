@@ -1,0 +1,85 @@
+{
+  "video_id": "jL9thjObpQU",
+  "title": "Future of Web3: Top 5 Cryptos Building a Decentralized Internet",
+  "url": "https://www.youtube.com/watch?v=jL9thjObpQU",
+  "tab": "streams",
+  "duration_seconds": 2592,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1794445823,
+  "analysis": {
+    "transcript_sha256": "40214ca5c5e9fac16dae4e63e02d06b95712cad4ea3c36b1c860bca7b79b5a44",
+    "word_count": 6481,
+    "category_counts": {
+      "btc_regime": 2,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 11,
+      "exit": 2,
+      "risk": 2,
+      "futures": 5,
+      "alt_relative": 0,
+      "narrative": 20,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "AVAX",
+      "NEAR",
+      "HYPE"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [
+      "10%",
+      "32%",
+      "50%",
+      "80%",
+      "89%",
+      "9%",
+      "99%"
+    ],
+    "price_mentions": [
+      "$ 1.9 b",
+      "$180",
+      "$180 ",
+      "$2 m",
+      "$200 b",
+      "$216 b",
+      "$3 ",
+      "$360 b",
+      "$40 ",
+      "$400 ",
+      "$445 m",
+      "$5, ",
+      "$6",
+      "$6 ",
+      "$60 b"
+    ],
+    "time_horizon_mentions": [
+      "5 years"
+    ],
+    "indicators": [],
+    "action_counts": {
+      "buy": 2,
+      "sell": 2,
+      "hold": 0,
+      "wait": 2,
+      "short": 1,
+      "long": 4
+    }
+  }
+}
