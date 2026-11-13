@@ -1,0 +1,65 @@
+{
+  "video_id": "oCkbJB11kr8",
+  "title": "What’s the XRP buy signal? #crypto #xrp #altcoins",
+  "url": "https://www.youtube.com/shorts/oCkbJB11kr8",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_transcript_api",
+  "processed_at": 1794529428,
+  "analysis": {
+    "transcript_sha256": "850695a0f39a251cf1cb89222b6a623b9743d9a1a55e973de26a7c8c78cbcdd2",
+    "word_count": 271,
+    "category_counts": {
+      "btc_regime": 10,
+      "moving_averages": 0,
+      "macro": 0,
+      "entry": 1,
+      "exit": 0,
+      "risk": 0,
+      "futures": 1,
+      "alt_relative": 2,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "XRP"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [
+      "20%",
+      "22%"
+    ],
+    "price_mentions": [
+      "$185 ",
+      "$2 "
+    ],
+    "time_horizon_mentions": [
+      "6 months"
+    ],
+    "indicators": [],
+    "action_counts": {
+      "buy": 2,
+      "sell": 0,
+      "hold": 3,
+      "wait": 1,
+      "short": 0,
+      "long": 1
+    }
+  }
+}
