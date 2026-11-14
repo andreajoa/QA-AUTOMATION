@@ -1,8 +1,8 @@
 {
-  "updated_at": 1794603178,
-  "videos_analyzed": 487,
+  "updated_at": 1794641060,
+  "videos_analyzed": 488,
   "source_methods": {
-    "youtube_public_captions": 436,
+    "youtube_public_captions": 437,
     "youtube_transcript_api": 51
   },
   "category_occurrences": {
@@ -30,14 +30,14 @@
   },
   "asset_video_counts": {
     "BTC": 277,
-    "ETH": 205,
+    "ETH": 206,
     "SOL": 100,
     "LINK": 71,
     "HYPE": 64,
     "XRP": 56,
     "AVAX": 53,
     "NEAR": 39,
-    "ADA": 36,
+    "ADA": 37,
     "DOGE": 33,
     "BNB": 27,
     "TAO": 10,
