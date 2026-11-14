@@ -1,14 +1,14 @@
 {
-  "updated_at": 1794641060,
-  "videos_analyzed": 488,
+  "updated_at": 1794667583,
+  "videos_analyzed": 489,
   "source_methods": {
-    "youtube_public_captions": 437,
+    "youtube_public_captions": 438,
     "youtube_transcript_api": 51
   },
   "category_occurrences": {
     "btc_regime": 4484,
     "entry": 2222,
-    "futures": 2093,
+    "futures": 2094,
     "narrative": 1926,
     "macro": 1618,
     "risk": 740,
@@ -48,7 +48,7 @@
     "buy": 1245,
     "long": 1065,
     "hold": 765,
-    "short": 628,
+    "short": 629,
     "sell": 469,
     "wait": 333
   }
