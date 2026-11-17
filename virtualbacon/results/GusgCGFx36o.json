@@ -1,0 +1,78 @@
+{
+  "video_id": "GusgCGFx36o",
+  "title": "Altcoins Won't Pump Until These 2 Triggers Hit",
+  "url": "https://www.youtube.com/watch?v=GusgCGFx36o",
+  "tab": "streams",
+  "duration_seconds": 2957,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1794902402,
+  "analysis": {
+    "transcript_sha256": "085a3c6626dd3b38c407d69e3b9c932dbeb98654ff9f5c436b333a35bae576bf",
+    "word_count": 6663,
+    "category_counts": {
+      "btc_regime": 62,
+      "moving_averages": 40,
+      "macro": 118,
+      "entry": 6,
+      "exit": 0,
+      "risk": 8,
+      "futures": 13,
+      "alt_relative": 3,
+      "narrative": 4,
+      "liquidity": 53
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "LINK",
+      "NEAR"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": true,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": true,
+      "measure_alts_vs_btc": true,
+      "use_50w_for_confirmation": true,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [
+      "20%",
+      "80%"
+    ],
+    "price_mentions": [
+      "$2,000 "
+    ],
+    "time_horizon_mentions": [
+      "1 year",
+      "12 months",
+      "2 years",
+      "20 week",
+      "3 months",
+      "3 years",
+      "4 years",
+      "50 week",
+      "6 months"
+    ],
+    "indicators": [
+      "50W SMA/EMA",
+      "200W SMA",
+      "SMA",
+      "M2 liquidity"
+    ],
+    "action_counts": {
+      "buy": 1,
+      "sell": 0,
+      "hold": 5,
+      "wait": 3,
+      "short": 8,
+      "long": 5
+    }
+  }
+}

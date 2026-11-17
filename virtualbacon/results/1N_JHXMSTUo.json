@@ -1,0 +1,104 @@
+{
+  "video_id": "1N_JHXMSTUo",
+  "title": "10 Signs the Bitcoin Bottom Is Close",
+  "url": "https://www.youtube.com/watch?v=1N_JHXMSTUo",
+  "tab": "streams",
+  "duration_seconds": 3288,
+  "status": "analyzed",
+  "source_method": "youtube_transcript_api",
+  "processed_at": 1794902403,
+  "analysis": {
+    "transcript_sha256": "67eeb961a62dad64d7c62822997c2dfc92faf61c8e7b3494c20fe87e0f3cee55",
+    "word_count": 7135,
+    "category_counts": {
+      "btc_regime": 188,
+      "moving_averages": 53,
+      "macro": 4,
+      "entry": 36,
+      "exit": 26,
+      "risk": 11,
+      "futures": 22,
+      "alt_relative": 1,
+      "narrative": 8,
+      "liquidity": 1
+    },
+    "assets": [
+      "BTC",
+      "ETH",
+      "NEAR"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": true,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "5x"
+    ],
+    "percentage_mentions": [
+      "100%",
+      "11%",
+      "15%",
+      "20%",
+      "27%",
+      "80%",
+      "84%"
+    ],
+    "price_mentions": [
+      "$10,000",
+      "$2.47 b",
+      "$3,500, ",
+      "$4.5 b",
+      "$468 m",
+      "$5,000",
+      "$61 m",
+      "$65,000 ",
+      "$69,000 ",
+      "$7 b"
+    ],
+    "time_horizon_mentions": [
+      "1 week",
+      "100 week",
+      "140 days",
+      "2 days",
+      "2 months",
+      "2 weeks",
+      "2 years",
+      "20 days",
+      "20 week",
+      "200 week",
+      "24 hours",
+      "24 months",
+      "3 years",
+      "4 months",
+      "700 days",
+      "four months",
+      "four years",
+      "nine months",
+      "three months",
+      "three years",
+      "two years"
+    ],
+    "indicators": [
+      "50W SMA/EMA",
+      "200W SMA",
+      "SMA"
+    ],
+    "action_counts": {
+      "buy": 38,
+      "sell": 25,
+      "hold": 3,
+      "wait": 0,
+      "short": 17,
+      "long": 8
+    }
+  }
+}
