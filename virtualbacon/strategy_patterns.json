@@ -1,9 +1,9 @@
 {
-  "updated_at": 1794906338,
-  "videos_analyzed": 495,
+  "updated_at": 1794953182,
+  "videos_analyzed": 496,
   "source_methods": {
     "youtube_public_captions": 443,
-    "youtube_transcript_api": 52
+    "youtube_transcript_api": 53
   },
   "category_occurrences": {
     "btc_regime": 4751,
@@ -34,7 +34,7 @@
     "SOL": 100,
     "LINK": 72,
     "HYPE": 64,
-    "XRP": 56,
+    "XRP": 57,
     "AVAX": 53,
     "NEAR": 41,
     "ADA": 37,
@@ -47,7 +47,7 @@
   "action_occurrences": {
     "buy": 1288,
     "long": 1084,
-    "hold": 778,
+    "hold": 779,
     "short": 655,
     "sell": 494,
     "wait": 336
