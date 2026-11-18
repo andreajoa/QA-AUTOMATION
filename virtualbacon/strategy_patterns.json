@@ -1,8 +1,8 @@
 {
-  "updated_at": 1794991033,
-  "videos_analyzed": 496,
+  "updated_at": 1795038139,
+  "videos_analyzed": 497,
   "source_methods": {
-    "youtube_public_captions": 443,
+    "youtube_public_captions": 444,
     "youtube_transcript_api": 53
   },
   "category_occurrences": {
