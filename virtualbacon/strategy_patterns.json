@@ -1,8 +1,8 @@
 {
-  "updated_at": 1795124776,
-  "videos_analyzed": 498,
+  "updated_at": 1795163023,
+  "videos_analyzed": 499,
   "source_methods": {
-    "youtube_public_captions": 445,
+    "youtube_public_captions": 446,
     "youtube_transcript_api": 53
   },
   "category_occurrences": {
@@ -10,10 +10,10 @@
     "entry": 2271,
     "futures": 2136,
     "narrative": 1941,
-    "macro": 1742,
+    "macro": 1743,
     "liquidity": 794,
     "risk": 759,
-    "exit": 690,
+    "exit": 691,
     "alt_relative": 650,
     "moving_averages": 561
   },
@@ -37,9 +37,9 @@
     "XRP": 57,
     "AVAX": 53,
     "NEAR": 41,
-    "ADA": 37,
+    "ADA": 38,
     "DOGE": 33,
-    "BNB": 27,
+    "BNB": 28,
     "TAO": 10,
     "ZEC": 4,
     "XMR": 2
@@ -49,7 +49,7 @@
     "long": 1084,
     "hold": 779,
     "short": 655,
-    "sell": 494,
+    "sell": 495,
     "wait": 336
   }
 }

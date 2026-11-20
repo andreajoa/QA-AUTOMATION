@@ -1,0 +1,56 @@
+{
+  "video_id": "M25PUl384eM",
+  "title": "Why Worldcoin Will Crash Hard",
+  "url": "https://www.youtube.com/shorts/M25PUl384eM",
+  "tab": "shorts",
+  "duration_seconds": null,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1795158520,
+  "analysis": {
+    "transcript_sha256": "a3f6c683a5a491ec485556a5e9142e70e4d7c5f517e00e30af98c5a5baec9807",
+    "word_count": 186,
+    "category_counts": {
+      "btc_regime": 0,
+      "moving_averages": 0,
+      "macro": 1,
+      "entry": 0,
+      "exit": 1,
+      "risk": 0,
+      "futures": 0,
+      "alt_relative": 0,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "BNB",
+      "ADA"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [],
+    "price_mentions": [],
+    "time_horizon_mentions": [],
+    "indicators": [],
+    "action_counts": {
+      "buy": 0,
+      "sell": 1,
+      "hold": 0,
+      "wait": 0,
+      "short": 0,
+      "long": 0
+    }
+  }
+}
