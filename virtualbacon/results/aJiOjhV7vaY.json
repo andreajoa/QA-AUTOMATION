@@ -1,0 +1,92 @@
+{
+  "video_id": "aJiOjhV7vaY",
+  "title": "I Was Wrong about Solana (Price Prediction Update)",
+  "url": "https://www.youtube.com/watch?v=aJiOjhV7vaY",
+  "tab": "streams",
+  "duration_seconds": 1699,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1795289791,
+  "analysis": {
+    "transcript_sha256": "8553b1532276c353c17c75cc249f95eabb26a291ab8df1b83abbe4d99cf45c94",
+    "word_count": 4127,
+    "category_counts": {
+      "btc_regime": 1,
+      "moving_averages": 0,
+      "macro": 16,
+      "entry": 4,
+      "exit": 3,
+      "risk": 1,
+      "futures": 10,
+      "alt_relative": 0,
+      "narrative": 2,
+      "liquidity": 3
+    },
+    "assets": [
+      "SOL",
+      "LINK",
+      "HYPE"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [],
+    "percentage_mentions": [
+      "100%",
+      "34%",
+      "49%",
+      "5.7%",
+      "50%",
+      "7%",
+      "8%"
+    ],
+    "price_mentions": [
+      "$100 ",
+      "$1100 ",
+      "$250 ",
+      "$250 b",
+      "$26 ",
+      "$27 ",
+      "$30 ",
+      "$32 ",
+      "$62 b",
+      "$65 b",
+      "$650 m",
+      "$78 "
+    ],
+    "time_horizon_mentions": [
+      "18 months",
+      "2 years",
+      "24 months",
+      "5 years",
+      "6 month",
+      "9 month",
+      "9 months",
+      "five year",
+      "four days",
+      "nine months",
+      "six year",
+      "three years",
+      "two years"
+    ],
+    "indicators": [],
+    "action_counts": {
+      "buy": 2,
+      "sell": 5,
+      "hold": 0,
+      "wait": 2,
+      "short": 5,
+      "long": 3
+    }
+  }
+}
