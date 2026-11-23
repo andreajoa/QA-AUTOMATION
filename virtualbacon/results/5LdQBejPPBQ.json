@@ -1,0 +1,89 @@
+{
+  "video_id": "5LdQBejPPBQ",
+  "title": "Don't Be Fooled, Crypto is Still in a Bull Market",
+  "url": "https://www.youtube.com/watch?v=5LdQBejPPBQ",
+  "tab": "streams",
+  "duration_seconds": 2379,
+  "status": "analyzed",
+  "source_method": "youtube_public_captions",
+  "processed_at": 1795420808,
+  "analysis": {
+    "transcript_sha256": "db9c1c01555115d323e98a00b6f8144b0002ac50f4cb3d4f029f26d34034d10b",
+    "word_count": 5885,
+    "category_counts": {
+      "btc_regime": 39,
+      "moving_averages": 11,
+      "macro": 68,
+      "entry": 20,
+      "exit": 12,
+      "risk": 15,
+      "futures": 18,
+      "alt_relative": 1,
+      "narrative": 0,
+      "liquidity": 0
+    },
+    "assets": [
+      "BTC",
+      "LINK"
+    ],
+    "rule_flags": {
+      "wait_for_weekly_confirmation": false,
+      "bitcoin_as_core": false,
+      "altcoins_as_temporary_trades": false,
+      "three_month_altcoin_horizon": false,
+      "avoid_high_leverage": false,
+      "macro_liquidity_matters": false,
+      "measure_alts_vs_btc": false,
+      "use_50w_for_confirmation": false,
+      "use_200w_for_value": false,
+      "buy_in_tranches": false,
+      "target_and_time_deadline": false
+    },
+    "leverage_mentions": [
+      "2x",
+      "3x",
+      "5x"
+    ],
+    "percentage_mentions": [
+      "10%",
+      "2%",
+      "2.75%",
+      "2.8%",
+      "25%",
+      "30%",
+      "4.2%",
+      "5.3%",
+      "54%",
+      "6%",
+      "60%",
+      "9.7%"
+    ],
+    "price_mentions": [],
+    "time_horizon_mentions": [
+      "12 hour",
+      "200 day",
+      "21 week",
+      "40 days",
+      "70 years",
+      "8 months",
+      "eight months",
+      "eight years",
+      "six years",
+      "two days",
+      "two years"
+    ],
+    "indicators": [
+      "21W EMA",
+      "200D MA",
+      "EMA"
+    ],
+    "action_counts": {
+      "buy": 14,
+      "sell": 12,
+      "hold": 5,
+      "wait": 0,
+      "short": 1,
+      "long": 2
+    }
+  }
+}
